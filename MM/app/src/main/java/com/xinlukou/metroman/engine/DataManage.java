@@ -4,16 +4,7 @@ import java.util.List;
 
 public class DataManage {
     public List<SrcConfig> ConfigList = null;
-    public List<String> HolidayList = null;
-    public List<SrcUNO> UNOList = null;
-    public List<SrcFare> FareList = null;
-    public List<Station> StationList = null;
-    public List<Line> LineList = null;
-    public List<Way> WayList = null;
-    public List<Transfer> TransferFromList = null;
-    public List<Transfer> TransferToList = null;
-    public List<Timetable> WeekdayList = null;
-    public List<Timetable> WeekendList = null;
+
 
     public static void InitData() {
         LoadConfig();
