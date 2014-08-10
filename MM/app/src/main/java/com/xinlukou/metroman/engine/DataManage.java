@@ -1,198 +1,211 @@
 package com.xinlukou.metroman.engine;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+
+import android.content.res.AssetManager;
 import android.text.TextUtils;
 
+import org.apache.http.util.EncodingUtils;
+
 public class DataManage {
-    public static List<SrcConfig> ConfigList = null;
-    public static List<String> HolidayList = null;
-    public static List<SrcUNO> UNOList = null;
-    public static List<SrcFare> FareList = null;
-    public static List<Station> StationList = null;
-    public static List<Line> LineList = null;
-    public static List<Way> WayList = null;
-    public static List<Link> LinkList = null;
-    public static List<Transfer> TransferFromList = null;
-    public static List<Transfer> TransferToList = null;
-    public static List<Timetable> WeekdayList = null;
-    public static List<Timetable> WeekendList = null;
+    public static AssetManager assetManager = null;
+    public static List<SrcConfig> configList = null;
+    public static List<String> holidayList = null;
+    public static List<SrcUNO> unoList = null;
+    public static List<SrcFare> fareList = null;
+    public static List<Station> stationList = null;
+    public static List<Line> lineList = null;
+    public static List<Way> wayList = null;
+    public static List<Link> linkList = null;
+    public static List<Transfer> transferFromList = null;
+    public static List<Transfer> transferToList = null;
+    public static List<Timetable> weekdayList = null;
+    public static List<Timetable> weekendList = null;
 
-    public static void InitData() {
-        LoadConfig();
-        LoadHoliday();
-        LoadUNO();
-        LoadFare();
-        LoadStation();
-        LoadLine();
-        LoadWay();
-        LoadLink();
-        LoadTransferFrom();
-        LoadTransferTo();
-        LoadWeekday();
-        LoadWeekend();
+    public static void initData() {
+        loadConfig();
+        loadHoliday();
+        loadUNO();
+        loadFare();
+        loadStation();
+        loadLine();
+        loadWay();
+        loadLink();
+        loadTransferFrom();
+        loadTransferTo();
+        loadWeekday();
+        loadWeekend();
     }
 
-    public static void ReleaseData() {
-        ConfigList = null;
-        HolidayList = null;
-        UNOList = null;
-        FareList = null;
-        StationList = null;
-        LineList = null;
-        WayList = null;
-        LinkList = null;
-        TransferFromList = null;
-        TransferToList = null;
-        WeekdayList = null;
-        WeekendList = null;
-        ConfigList = null;
+    public static void releaseData() {
+        configList = null;
+        holidayList = null;
+        unoList = null;
+        fareList = null;
+        stationList = null;
+        lineList = null;
+        wayList = null;
+        linkList = null;
+        transferFromList = null;
+        transferToList = null;
+        weekdayList = null;
+        weekendList = null;
+        configList = null;
     }
 
-    private static String GetPathByCity(String fileName) {
+    private static String getPathByCity(String fileName) {
         //TODO
-        return "";
+        return String.format("data/%s/%s.csv", "sh", fileName);
     }
 
-    private static String[] GetCsvFileContents(String fileName) {
-        String path = GetPathByCity(fileName);
-        //TODO
-        String content = "";
-        return content.split("\r\n");
+    private static String[] getCsvFileContents(String fileName) {
+        String[] rowArray = null;
+        try {
+            String path = getPathByCity(fileName);
+            InputStream is = assetManager.open(path);
+            byte[] bytes = new byte[is.available()];
+            is.read(bytes);
+            String content = EncodingUtils.getString(bytes, "utf-8");
+            rowArray = content.split("\r\n");
+        } catch (Exception ex) {
+        }
+        return rowArray;
     }
 
-    private static void LoadConfig() {
-        if(ConfigList != null && ConfigList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("config");
-        ConfigList = new ArrayList<SrcConfig>(rowArray.length);
+    private static void loadConfig() {
+        if(configList != null && configList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("config");
+        configList = new ArrayList<SrcConfig>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            ConfigList.add(new SrcConfig(str));
+            configList.add(new SrcConfig(str));
         }
     }
 
-    private static void LoadHoliday() {
-        if(HolidayList != null && HolidayList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("holiday");
-        HolidayList = new ArrayList<String>(rowArray.length);
+    private static void loadHoliday() {
+        if(holidayList != null && holidayList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("holiday");
+        holidayList = new ArrayList<String>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            HolidayList.add(str);
+            holidayList.add(str);
         }
     }
 
-    private static void LoadUNO() {
-        if(UNOList != null && UNOList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("uno");
-        UNOList = new ArrayList<SrcUNO>(rowArray.length);
+    private static void loadUNO() {
+        if(unoList != null && unoList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("uno");
+        unoList = new ArrayList<SrcUNO>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            UNOList.add(new SrcUNO(str));
+            unoList.add(new SrcUNO(str));
         }
     }
 
-    private static void LoadFare() {
-        if(FareList != null && FareList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("fare");
-        FareList = new ArrayList<SrcFare>(rowArray.length);
+    private static void loadFare() {
+        if(fareList != null && fareList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("fare");
+        fareList = new ArrayList<SrcFare>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            FareList.add(new SrcFare(str));
+            fareList.add(new SrcFare(str));
         }
     }
 
-    private static void LoadStation() {
-        if(StationList != null && StationList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("station");
+    private static void loadStation() {
+        if(stationList != null && stationList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("station");
         Integer curIndex = 0;
-        StationList = new ArrayList<Station>(rowArray.length);
+        stationList = new ArrayList<Station>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            StationList.add(new Station(curIndex, str));
+            stationList.add(new Station(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadLine() {
-        if(LineList != null && LineList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("line");
+    private static void loadLine() {
+        if(lineList != null && lineList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("line");
         Integer curIndex = 0;
-        LineList = new ArrayList<Line>(rowArray.length);
+        lineList = new ArrayList<Line>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            LineList.add(new Line(curIndex, str));
+            lineList.add(new Line(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadWay() {
-        if(WayList != null && WayList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("way");
+    private static void loadWay() {
+        if(wayList != null && wayList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("way");
         Integer curIndex = 0;
-        WayList = new ArrayList<Way>(rowArray.length);
+        wayList = new ArrayList<Way>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            WayList.add(new Way(curIndex, str));
+            wayList.add(new Way(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadLink() {
-        if(LinkList != null && LinkList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("link");
+    private static void loadLink() {
+        if(linkList != null && linkList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("link");
         Integer curIndex = 0;
-        LinkList = new ArrayList<Link>(rowArray.length);
+        linkList = new ArrayList<Link>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            LinkList.add(new Link(curIndex, str));
+            linkList.add(new Link(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadTransferFrom() {
-        if(TransferFromList != null && TransferFromList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("transferfrom");
+    private static void loadTransferFrom() {
+        if(transferFromList != null && transferFromList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("transferfrom");
         Integer curIndex = 0;
-        TransferFromList = new ArrayList<Transfer>(rowArray.length);
+        transferFromList = new ArrayList<Transfer>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            TransferFromList.add(new Transfer(curIndex, str));
+            transferFromList.add(new Transfer(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadTransferTo() {
-        if(TransferToList != null && TransferToList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("transferto");
+    private static void loadTransferTo() {
+        if(transferToList != null && transferToList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("transferto");
         Integer curIndex = 0;
-        TransferToList = new ArrayList<Transfer>(rowArray.length);
+        transferToList = new ArrayList<Transfer>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            TransferToList.add(new Transfer(curIndex, str));
+            transferToList.add(new Transfer(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadWeekday() {
-        if(WeekdayList != null && WeekdayList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("weekday");
+    private static void loadWeekday() {
+        if(weekdayList != null && weekdayList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("weekday");
         Integer curIndex = 0;
-        WeekdayList = new ArrayList<Timetable>(rowArray.length);
+        weekdayList = new ArrayList<Timetable>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            WeekdayList.add(new Timetable(curIndex, str));
+            weekdayList.add(new Timetable(curIndex, str));
             curIndex++;
         }
     }
 
-    private static void LoadWeekend() {
-        if(WeekendList != null && WeekendList.size() > 0) return;
-        String[] rowArray = GetCsvFileContents("weekend");
+    private static void loadWeekend() {
+        if(weekendList != null && weekendList.size() > 0) return;
+        String[] rowArray = getCsvFileContents("weekend");
         Integer curIndex = 0;
-        WeekendList = new ArrayList<Timetable>(rowArray.length);
+        weekendList = new ArrayList<Timetable>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
-            WeekendList.add(new Timetable(curIndex, str));
+            weekendList.add(new Timetable(curIndex, str));
             curIndex++;
         }
     }

@@ -1,0 +1,395 @@
+SHML01,SH,ML,1号线,1號綫,1号線,Line 1,,1,0,0,0,0,,,
+SHML02,SH,ML,2号线,2號綫,2号線,Line 2,,2,0,0,0,0,,,
+SHML03,SH,ML,3号线,3號綫,3号線,Line 3,,3,0,0,0,0,,,
+SHML04,SH,ML,4号线,4號綫,4号線,Line 4,,4,0,0,0,0,,,
+SHML05,SH,ML,5号线,5號綫,5号線,Line 5,,5,0,0,0,0,,,
+SHML06,SH,ML,6号线,6號綫,6号線,Line 6,,6,0,0,0,0,,,
+SHML07,SH,ML,7号线,7號綫,7号線,Line 7,,7,0,0,0,0,,,
+SHML08,SH,ML,8号线,8號綫,8号線,Line 8,,8,0,0,0,0,,,
+SHML09,SH,ML,9号线,9號綫,9号線,Line 9,,9,0,0,0,0,,,
+SHML10,SH,ML,10号线,10號綫,10号線,Line 10,,10,0,0,0,0,,,
+SHML11,SH,ML,11号线,11號綫,11号線,Line 11,,11,0,0,0,0,,,
+SHML12,SH,ML,12号线,12號綫,12号線,Line 12,,12,0,0,0,0,,,
+SHML13,SH,ML,13号线,13號綫,13号線,Line 13,,13,0,0,0,0,,,
+SHML16,SH,ML,16号线,16號綫,16号線,Line 16,,16,0,0,0,0,,,
+SHML22,SH,ML,金山铁路,金山鐵路,金山鉄道,Jinshan Railway,,JS,0,0,0,0,,,
+SHMLCF,SH,ML,磁浮线,磁浮綫,リニア線,Maglev Line,,M,0,0,0,0,,,
+SHMLZJ,SH,ML,张江有轨电车,張江有軌電車,張江有軌電車,Zhangjiang Tram,,T,0,0,0,0,,,
+SHWL01,SH,WL,步行,步行,徒歩,On Foot,,,0,0,0,0,,,
+SHMW01A,SH,MW,富锦路方向,富錦路方向,富錦路行,To Fujin Road,,,0,0,0,0,,,
+SHMW01B,SH,MW,莘庄方向,莘莊方向,シン荘行,To Xinzhuang,,,0,0,0,0,,,
+SHMW02A,SH,MW,广兰路方向,廣蘭路方向,広蘭路行,To Guanglan Road,,,0,0,0,0,,,
+SHMW02B,SH,MW,徐泾东方向,徐涇東方向,徐涇東行,To East Xujing,,,0,0,0,0,,,
+SHMW02C,SH,MW,浦东国际机场方向,浦東國際機場方向,浦東国際空港行,To Pudong International Airport,,,0,0,0,0,,,
+SHMW02D,SH,MW,广兰路方向,廣蘭路方向,広蘭路行,To Guanglan Road,,,0,0,0,0,,,
+SHMW03A,SH,MW,江杨北路方向,江楊北路方向,江楊北路行,To North Jiangyang Road,,,0,0,0,0,,,
+SHMW03B,SH,MW,上海南站方向,上海南站方向,上海南駅行,To Shanghai South Railway Station,,,0,0,0,0,,,
+SHMW04A,SH,MW,外圈,外圈,外回り,Outer Circle,,,0,0,0,0,,,
+SHMW04B,SH,MW,内圈,內圈,内回り,Inner Circle,,,0,0,0,0,,,
+SHMW05A,SH,MW,闵行开发区方向,閔行開發區方向,閔行開発区行,To Minhang Development Zone,,,0,0,0,0,,,
+SHMW05B,SH,MW,莘庄方向,莘莊方向,シン荘行,To Xinzhuang,,,0,0,0,0,,,
+SHMW06A,SH,MW,东方体育中心方向,東方體育中心方向,東方体育中心行,To Shanghai Oriental Sports Centre,,,0,0,0,0,,,
+SHMW06B,SH,MW,港城路方向,港城路方向,港城路行,To Gangcheng Road,,,0,0,0,0,,,
+SHMW07A,SH,MW,美兰湖方向,美蘭湖方向,美蘭湖行,To Meilan Lake,,,0,0,0,0,,,
+SHMW07B,SH,MW,花木路方向,花木路方向,花木路行,To Huamu Road,,,0,0,0,0,,,
+SHMW08A,SH,MW,市光路方向,市光路方向,市光路行,To Shiguang Road,,,0,0,0,0,,,
+SHMW08B,SH,MW,沈杜公路方向,沈杜公路方向,沈杜公路行,To Shendu Highway,,,0,0,0,0,,,
+SHMW09A,SH,MW,松江南站方向,松江南站方向,松江南駅行,To South Songjiang Railway Station,,,0,0,0,0,,,
+SHMW09B,SH,MW,杨高中路方向,楊高中路方向,楊高中路行,To Middle Yanggao Road,,,0,0,0,0,,,
+SHMW10A,SH,MW,航中路方向,航中路方向,航中路行,To Hangzhong Road,,,0,0,0,0,,,
+SHMW10B,SH,MW,新江湾城方向,新江灣城方向,新江湾城行,To Xinjiangwancheng,,,0,0,0,0,,,
+SHMW10C,SH,MW,虹桥火车站方向,虹橋火車站方向,虹橋火車駅行,To Hongqiao Railway Station,,,0,0,0,0,,,
+SHMW10D,SH,MW,新江湾城方向,新江灣城方向,新江湾城行,To Xinjiangwancheng,,,0,0,0,0,,,
+SHMW11A,SH,MW,嘉定北方向,嘉定北方向,嘉定北駅行,To North Jiading,,,0,0,0,0,,,
+SHMW11B,SH,MW,罗山路方向,羅山路方向,羅山路行,To Luoshan Road,,,0,0,0,0,,,
+SHMW11C,SH,MW,花桥方向,花橋方向,花橋行,To Huaqiao,,,0,0,0,0,,,
+SHMW11D,SH,MW,三林方向,三林方向,三林行,To Sanlin,,,0,0,0,0,,,
+SHMW12A,SH,MW,金海路方向,金海路方向,金海路行,To Jinhai Road,,,0,0,0,0,,,
+SHMW12B,SH,MW,曲阜路方向,曲阜路方向,曲阜路行,To Qufu Road,,,0,0,0,0,,,
+SHMW13A,SH,MW,金沙江路方向,金沙江路方向,金沙江路行,To Jinshajiang Road,,,0,0,0,0,,,
+SHMW13B,SH,MW,金运路方向,金運路方向,金運路行,To Jinyun Road,,,0,0,0,0,,,
+SHMW16A,SH,MW,普通--滴水湖方向,普通--滴水湖方向,普通--滴水湖行,Local : To Dishui Lake,,,0,0,0,0,,,
+SHMW16B,SH,MW,普通--罗山路方向,普通--羅山路方向,普通--羅山路行,Local : To Luoshan Road,,,0,0,0,0,,,
+SHMW22A,SH,MW,普通--金山卫方向,普通--金山衛方向,普通--金山衛行,Local : To Jinshanwei,,,0,0,0,0,,,
+SHMW22B,SH,MW,普通--上海南站方向,普通--上海南站方向,普通--上海南駅行,Local : To Shanghai South Railway Station,,,0,0,0,0,,,
+SHMW22C,SH,MW,快速--金山卫方向,快速--金山衛方向,快速--金山衛行,Rapid : To Jinshanwei,,,0,0,0,0,,,
+SHMW22D,SH,MW,快速--上海南站方向,快速--上海南站方向,快速--上海南駅行,Rapid : To Shanghai South Railway Station,,,0,0,0,0,,,
+SHMW22E,SH,MW,直达--金山卫方向,直達--金山衛方向,急行--金山衛行,Express : To Jinshanwei,,,0,0,0,0,,,
+SHMW22F,SH,MW,直达--上海南站方向,直達--上海南站方向,急行--上海南駅行,Express : To Shanghai South Railway Station,,,0,0,0,0,,,
+SHMWCFA,SH,MW,浦东国际机场方向,浦東國際機場方向,浦東国際空港行,To Pudong International Airport,,,0,0,0,0,,,
+SHMWCFB,SH,MW,龙阳路方向,龍陽路方向,竜陽路行,To Longyang Road,,,0,0,0,0,,,
+SHMWZJA,SH,MW,张东路金秋路方向,張東路金秋路方向,張東路金秋路行,To Zhangdong Road Jinqiu Road,,,0,0,0,0,,,
+SHMWZJB,SH,MW,张江地铁站方向,張江地鐵站方向,張江地下鉄駅行,To Zhangjiang Subway Station,,,0,0,0,0,,,
+SHWW01A,SH,WW,,,,,,,0,0,0,0,,,
+SHWW01B,SH,WW,,,,,,,0,0,0,0,,,
+SHMS001,SH,MS,莘庄,莘莊,シン荘,Xinzhuang,xinzhuang,xz,31.111452,121.385058,795,2487,莘庄站,シン荘駅,Xinzhuang_Station_(Shanghai_Metro)
+SHMS002,SH,MS,外环路,外環路,外環路,Waihuan Road,waihuanlu,whl,31.120557,121.392862,835,2404,外环路站,外環路駅,Waihuanlu_Station
+SHMS003,SH,MS,莲花路,蓮花路,蓮花路,Lianhua Road,lianhualu,lhl,31.131071,121.402673,897,2341,莲花路站,蓮花路駅,Lianhua_Road_Station
+SHMS004,SH,MS,锦江乐园,錦江樂園,錦江楽園,Jinjiang Park,jinjiangleyuan,jjly,31.142088,121.413824,959,2279,锦江乐园站,錦江楽園駅,Jinjiang_Park_Station
+SHMS005,SH,MS,上海南站,上海南站,上海南駅,Shanghai South Railway Station,shanghainanzhan,shnz,31.1546562,121.4302683,997,2208,上海南站站,上海南駅駅,Shanghai_South_Railway_Station_(Metro)
+SHMS006,SH,MS,漕宝路,漕寶路,漕宝路,Caobao Road,caobaolu,cbl,31.168237,121.434977,997,2088,漕宝路站,漕宝路駅,Caobao_Road_Station
+SHMS007,SH,MS,上海体育馆,上海體育館,上海体育館,Shanghai Indoor Stadium,shanghaitiyuguan,shtyg,31.182887,121.437468,1137,1897,上海体育馆站,上海体育館駅,Shanghai_Indoor_Stadium_Station
+SHMS008,SH,MS,徐家汇,徐家匯,徐家匯,Xujiahui,xujiahui,xjh,31.195352,121.436786,1236,1791,徐家汇站,徐家匯駅,Xujiahui_Station
+SHMS009,SH,MS,衡山路,衡山路,衡山路,Hengshan Road,hengshanlu,hsl,31.204827,121.446573,1313,1722,衡山路站,衡山路駅,Hengshan_Road_Station
+SHMS010,SH,MS,常熟路,常熟路,常熟路,Changshu Road,changshulu,csl,31.213405,121.451077,1413,1622,常熟路站,常熟路駅,Changshu_Road_Station
+SHMS011,SH,MS,陕西南路,陝西南路,陝西南路,South Shaanxi Road,shanxinnanlu,sxnl,31.2151,121.458225,1549,1633,陕西南路站,陝西南路駅,South_Shaanxi_Road_Station
+SHMS012,SH,MS,黄陂南路,黃陂南路,黄陂南路,South Huangpi Road,huangpinanlu,hpnl,31.222729,121.473292,1723,1622,黄陂南路站,黄陂南路駅,South_Huangpi_Road_Station
+SHMS013,SH,MS,人民广场,人民廣場,人民広場,People's Square,renminguangchang,rmgc,31.232844,121.47537,1850,1469,人民广场站_(上海市),人民広場駅,People's_Square_Station
+SHMS014,SH,MS,新闸路,新閘路,新閘路,Xinzha Road,xinzhalu,xzl,31.238456,121.467936,1787,1379,新闸路站,新閘路駅,Xinzha_Road_Station
+SHMS015,SH,MS,汉中路,漢中路,漢中路,Hanzhong Road,hanzhonglu,hzl,31.241746,121.458592,1699,1290,汉中路站,漢中路駅,Hanzhong_Road_Station
+SHMS016,SH,MS,上海火车站,上海火車站,上海火車駅,Shanghai Railway Station,shanghaihuochezhan,shhcz,31.249332,121.458744,1698,1172,上海火车站站,上海駅駅,Shanghai_Railway_Station_(Metro)
+SHMS017,SH,MS,中山北路,中山北路,中山北路,North Zhongshan Road,zhongshanbeilu,zsbl,31.259088,121.459144,1699,1074,中山北路站,中山北路駅,North_Zhongshan_Road_Station
+SHMS018,SH,MS,延长路,延長路,延長路,Yanchang Road,yanchanglu,ycl,31.2714,121.455517,1701,989,延长路站,延長路駅,Yanchang_Road_Station
+SHMS019,SH,MS,上海马戏城,上海馬戲城,上海馬戯城,Shanghai Circus World,shanghaimaxicheng,shmxc,31.279561,121.452043,1699,904,上海马戏城站,上海馬戯城駅,Shanghai_Circus_World_Station
+SHMS020,SH,MS,汶水路,汶水路,ウェン水路,Wenshui Road,wenshuilu,wsl,31.293095,121.450134,1701,820,汶水路站,ブン水路駅,Wenshui_Road_Station
+SHMS021,SH,MS,彭浦新村,彭浦新村,彭浦新村,Pengpu Xincun,pengpuxincun,ppxc,31.306752,121.44864,1700,737,彭浦新村站,彭浦新村駅,Pengpu_Xincun_Station
+SHMS022,SH,MS,共康路,共康路,共康路,Gongkang Road,gongkanglu,gkl,31.318791,121.447169,1702,652,共康路站,共康路駅,Gongkang_Road_Station
+SHMS023,SH,MS,通河新村,通河新村,通河新村,Tonghe Xincun,tonghexincun,thxc,31.331259,121.441479,1698,568,通河新村站,通河新村駅,Tonghe_Xincun_Station
+SHMS024,SH,MS,呼兰路,呼蘭路,呼蘭路,Hulan Road,hulanlu,hll,31.339967,121.437671,1701,483,呼兰路站,呼蘭路駅,Hulan_Road_Station
+SHMS025,SH,MS,共富新村,共富新村,共富新村,Gongfu Xincun,gongfuxincun,gfxc,31.355414,121.43409,1699,398,共富新村站,共富新村駅,Gongfu_Xincun_Station
+SHMS026,SH,MS,宝安公路,寶安公路,宝安公路,Bao'an Highway,baoangonglu,bagl,31.369665,121.431144,1701,314,宝安公路站,宝安公路駅,Bao'an_Highway_Station
+SHMS027,SH,MS,友谊西路,友誼西路,友誼西路,West Youyi Road,youyixilu,yyxl,31.381339,121.427872,1698,230,友谊西路站,友誼西路駅,West_Youyi_Road_Station
+SHMS028,SH,MS,富锦路,富錦路,富錦路,Fujin Road,fujinlu,fjl,31.392403,121.424713,1701,145,富锦路站,富錦路駅,Fujin_Road_Station
+SHMS029,SH,MS,徐泾东,徐涇東,徐涇東,East Xujing,xujingdong,xjd,31.187681,121.298212,212,1630,徐泾东站,徐涇東駅,East_Xujing_Station
+SHMS030,SH,MS,虹桥火车站,虹橋火車站,虹橋火車駅,Hongqiao Railway Station,hongqiaohuochezhan,hqhcz,31.192681,121.321523,317,1637,虹桥火车站站,虹橋駅駅,Hongqiao_Railway_Station_Station
+SHMS031,SH,MS,虹桥2号航站楼,虹橋2號航站樓,虹橋第2ターミナル,Hongqiao Airport Terminal 2,hongqiaoerhaohangzhanlou,hqehhzl,31.193202,121.332093,427,1637,虹桥2号航站楼站,虹橋2号航站楼駅,Hongqiao_Airport_Terminal_2_Station
+SHMS032,SH,MS,淞虹路,淞虹路,淞虹路,Songhong Road,songhonglu,shl,31.218255,121.359278,645,1468,淞虹路站,淞虹路駅,Songhong_Road_Station
+SHMS033,SH,MS,北新泾,北新涇,北新涇,Beixinjing,beixinjing,bxj,31.216787,121.373543,740,1473,北新泾站,北新涇駅,Beixinjing_Station
+SHMS034,SH,MS,威宁路,威寧路,威寧路,Weining Road,weininglu,wnl,31.215027,121.386289,833,1470,威宁路站,威寧路駅,Weining_Road_Station
+SHMS035,SH,MS,娄山关路,婁山關路,婁山関路,Loushanguan Road,loushanguanlu,lsgl,31.211003,121.403894,928,1472,娄山关路站,婁山関路駅,Loushanguan_Road_Station
+SHMS036,SH,MS,中山公园,中山公園,中山公園,Zhongshan Park,zhongshangongyuan,zsgy,31.218173,121.415695,1086,1468,中山公园站,中山公園駅,Zhongshan_Park_Station
+SHMS037,SH,MS,江苏路,江蘇路,江蘇路,Jiangsu Road,jiangsulu,jsl,31.2194927,121.4314593,1235,1470,江苏路站,江蘇路駅,Jiangsu_Road_Station
+SHMS038,SH,MS,静安寺,靜安寺,静安寺,Jing'an Temple,jingansi,jas,31.223216,121.446437,1413,1468,静安寺站,静安寺駅,Jing'an_Temple_Station
+SHMS039,SH,MS,南京西路,南京西路,南京西路,West Nanjing Road,nanjingxilu,njxl,31.229724,121.459716,1628,1469,南京西路站,南京西路駅,West_Nanjing_Road_Station
+SHMS040,SH,MS,南京东路,南京東路,南京東路,East Nanjing Road,nanjingdonglu,njdl,31.237632,121.484859,2016,1469,南京東路站_(上海),南京東路駅_(上海市),East_Nanjing_Road_Station
+SHMS041,SH,MS,陆家嘴,陸家嘴,陸家嘴,Lujiazui,lujiazui,ljz,31.238073,121.501632,2173,1513,陆家嘴站,陸家嘴駅,Lujiazui_Station
+SHMS042,SH,MS,东昌路,東昌路,東昌路,Dongchang Road,dongchanglu,dcl,31.233253,121.515119,2246,1587,东昌路站,東昌路駅,Dongchang_Road_Station
+SHMS043,SH,MS,世纪大道,世紀大道,世紀大道,Century Avenue,shijidadao,sjdd,31.229069,121.526867,2339,1677,世纪大道站_(上海),世紀大道駅,Century_Avenue_Station
+SHMS044,SH,MS,上海科技馆,上海科技館,上海科技館,Shanghai Science & Technology Museum,shanghaikejiguan,shkjg,31.219453,121.542949,2462,1850,上海科技馆站,上海科技館駅,Shanghai_Science_and_Technology_Museum_Station
+SHMS045,SH,MS,世纪公园,世紀公園,世紀公園,Century Park,shijigongyuan,sjgy,31.209971,121.550768,2458,1974,世纪公园站,世紀公園駅,Century_Park_Station_(Shanghai)
+SHMS046,SH,MS,龙阳路,龍陽路,竜陽路,Longyang Road,longyanglu,lyl,31.202909,121.557455,2569,2068,龙阳路站,竜陽路駅,Longyang_Road_Station
+SHMS047,SH,MS,张江高科,張江高科,張江ハイテク,Zhangjiang Hi-Tech Park,zhangjianggaoke,zjgk,31.201906,121.587748,2704,2067,张江高科站,張江高科駅,Zhangjiang_Hi-Tech_Park_Station
+SHMS048,SH,MS,金科路,金科路,金科路,Jinke Road,jinkelu,jkl,31.20435,121.601987,2831,2070,金科路站,金科路駅,Jinke_Road_Station
+SHMS049,SH,MS,广兰路,廣蘭路,広蘭路,Guanglan Road,guanglanlu,gll,31.210774,121.619962,2957,2068,广兰路站,広蘭路駅,Guanglan_Road_Station
+SHMS050,SH,MS,唐镇,唐鎮,唐鎮,Tangzhen,tangzhen,tz,31.213289,121.655252,3083,2070,唐镇站,唐鎮駅,Tangzhen_Station
+SHMS051,SH,MS,创新中路,創新中路,創新中路,Middle Chuangxin Road,chuangxinzhonglu,cxzl,31.214906,121.664997,3164,2114,创新中路站,創新中路駅,Middle_Chuangxin_Road_Station
+SHMS052,SH,MS,华夏东路,華夏東路,華夏東路,East Huaxia Road,huaxiadonglu,hxdl,31.19656,121.676481,3164,2203,华夏东路站,華夏東路駅,East_Huaxia_Road_Station
+SHMS053,SH,MS,川沙,川沙,川沙,Chuansha,chuansha,cs,31.186696,121.698072,3164,2292,川沙站,川沙駅,Chuansha_Station
+SHMS054,SH,MS,凌空路,凌空路,凌空路,Lingkong Road,lingkonglu,lkl,31.192474,121.723031,3163,2382,凌空路站,凌空路駅,Lingkong_Road_Station
+SHMS055,SH,MS,远东大道,遠東大道,遠東大道,Yuandong Avenue,yuandongdadao,yddd,31.199385,121.755402,3186,2490,远东大道站,遠東大道駅,Yuandong_Avenue_Station
+SHMS056,SH,MS,海天三路,海天三路,海天三路,Haitiansan Road,haitiansanlu,htsl,31.168356,121.797051,3249,2553,海天三路站,海天三路駅,Haitiansan_Road_Station
+SHMS057,SH,MS,浦东国际机场,浦東國際機場,浦東国際空港,Pudong International Airport,pudongguojijichang,pdgjjc,31.150462,121.805853,3302,2621,浦东国际机场站,浦東国際空港駅,Pudong_International_Airport_Station
+SHMS058,SH,MS,石龙路,石龍路,石竜路,Shilong Road,shilonglu,sll,31.156723,121.441135,1105,2212,石龙路站,石竜路駅,Shilong_Road_Station
+SHMS059,SH,MS,龙漕路,龍漕路,竜漕路,Longcao Road,longcaolu,lcl,31.169853,121.444365,1135,2088,龙漕路站,竜漕路駅,Longcao_Road_Station
+SHMS060,SH,MS,漕溪路,漕溪路,漕渓路,Caoxi Road,caoxilu,cxl,31.176853,121.438311,1108,1966,漕溪路站,漕渓路駅,Caoxi_Road_Station
+SHMS061,SH,MS,宜山路,宜山路,宜山路,Yishan Road,yishanlu,ysl,31.186172,121.427414,1087,1790,宜山路站,宜山路駅,Yishan_Road_Station
+SHMS062,SH,MS,虹桥路,虹橋路,虹橋路,Hongqiao Road,hongqiaolu,hql,31.196982,121.420833,1085,1646,虹桥路站,虹橋路駅,Hongqiao_Road_Station
+SHMS063,SH,MS,延安西路,延安西路,延安西路,West Yan'an Road,yananxilu,yaxl,31.210025,121.417145,1086,1558,延安西路站,延安西路駅,West_Yan'an_Road_Station
+SHMS064,SH,MS,金沙江路,金沙江路,金沙江路,Jinshajiang Road,jinshajianglu,jsjl,31.231712,121.413093,1086,1282,金沙江路站,金沙江路駅,Jinshajiang_Road_Station
+SHMS065,SH,MS,曹杨路,曹楊路,曹楊路,Caoyang Road,caoyanglu,cyl,31.239764,121.418336,1236,1163,曹杨路站,曹楊路駅,Caoyang_Road_Station
+SHMS066,SH,MS,镇坪路,鎮坪路,鎮坪路,Zhenping Road,zhenpinglu,zpl,31.246443,121.430053,1411,1162,镇坪路站,鎮坪路駅,Zhenping_Road_Station
+SHMS067,SH,MS,中潭路,中潭路,中潭路,Zhongtan Road,zhongtanlu,ztl,31.254716,121.441637,1550,1161,中潭路站,中潭路駅,Zhongtan_Road_Station
+SHMS068,SH,MS,宝山路,寶山路,宝山路,Baoshan Road,baoshanlu,bsl,31.251494,121.476531,1909,1162,宝山路站,宝山路駅,Baoshan_Road_Station
+SHMS069,SH,MS,东宝兴路,東寶興路,東宝興路,Dongbaoxing Road,dongbaoxinglu,dbxl,31.260118,121.480143,2047,1049,东宝兴路站,東宝興路駅,Dongbaoxing_Road_Station
+SHMS070,SH,MS,虹口足球场,虹口足球場,虹口サッカー場,Hongkou Football Stadium,hongkouzuqiuchang,hkzqc,31.271004,121.479414,2048,948,虹口足球场站,虹口足球場駅,Hongkou_Football_Stadium_Station
+SHMS071,SH,MS,赤峰路,赤峰路,赤峰路,Chifeng Road,chifenglu,cfl,31.281878,121.482444,2049,862,赤峰路站,赤峰路駅,Chifeng_Road_Station
+SHMS072,SH,MS,大柏树,大柏樹,大柏樹,Dabaishu,dabaishu,dbs,31.289563,121.483254,2048,792,大柏树站,大柏樹駅,Dabaishu_Station
+SHMS073,SH,MS,江湾镇,江灣鎮,江湾鎮,Jiangwan Town,jiangwanzhen,jwz,31.305206,121.485076,2049,723,江湾镇站,江湾鎮駅,Jiangwan_Town_Station
+SHMS074,SH,MS,殷高西路,殷高西路,殷高西路,West Yingao Road,yingaoxilu,ygxl,31.320024,121.484874,2046,651,殷高西路站,殷高西路駅,West_Yingao_Road_Station
+SHMS075,SH,MS,长江南路,長江南路,長江南路,South Changjiang Road,changjiangnanlu,cjnl,31.331783,121.491408,2077,574,长江南路站,長江南路駅,South_Changjiang_Road_Station
+SHMS076,SH,MS,淞发路,淞發路,淞発路,Songfa Road,songfalu,sfl,31.345116,121.500463,2130,524,淞发路站,淞発路駅,Songfa_Road_Station
+SHMS077,SH,MS,张华浜,張華浜,張華浜,Zhanghuabang,zhanghuabang,zhb,31.362761,121.497159,2181,473,张华浜站,張華浜駅,Zhanghuabang_Station
+SHMS078,SH,MS,淞滨路,淞濱路,淞濱路,Songbin Road,songbinlu,sbl,31.371415,121.493131,2217,392,淞滨路站,淞浜路駅,Songbin_Road_Station
+SHMS079,SH,MS,水产路,水產路,水産路,Shuichan Road,shuichanlu,scl,31.381293,121.488211,2214,316,水产路站,水産路駅,Shuichan_Road_Station
+SHMS080,SH,MS,宝杨路,寶楊路,宝楊路,Baoyang Road,baoyanglu,byl,31.39537,121.47965,2216,239,宝杨路站,宝楊路駅,Baoyang_Road_Station
+SHMS081,SH,MS,友谊路,友誼路,友誼路,Youyi Road,youyilu,yyl,31.403933,121.476206,2214,162,友谊路站_(上海),友誼路駅_(上海市),Youyi_Road_Station
+SHMS082,SH,MS,铁力路,鐵力路,鉄力路,Tieli Road,tielilu,tll,31.408362,121.461977,2168,110,铁力路站,鉄力路駅,Tieli_Road_Station
+SHMS083,SH,MS,江杨北路,江楊北路,江楊北路,North Jiangyang Road,jiangyangbeilu,jybl,31.407223,121.439261,2048,110,江杨北路站,江楊北路駅,North_Jiangyang_Road_Station
+SHMS084,SH,MS,上海体育场,上海體育場,上海体育場,Shanghai Stadium,shanghaitiyuchang,shtyc,31.185529,121.44347,1283,1937,上海体育场站,上海体育場駅,Shanghai_Stadium_Station
+SHMS085,SH,MS,东安路,東安路,東安路,Dong'an Road,donganlu,dal,31.1908629,121.4547166,1412,1937,东安路站,東安路駅,Dong'an_Road_Station
+SHMS086,SH,MS,大木桥路,大木橋路,大木橋路,Damuqiao Road,damuqiaolu,dmql,31.194246,121.463574,1548,1937,大木桥路站,大木橋路駅,Damuqiao_Road_Station
+SHMS087,SH,MS,鲁班路,魯班路,魯班路,Luban Road,lubanlu,lbl,31.199055,121.473473,1658,1936,鲁班路站,魯班路駅,Luban_Road_Station
+SHMS088,SH,MS,西藏南路,西藏南路,西藏南路,South Xizang Road,xizangnanlu,xznl,31.201823,121.489553,1863,1937,西藏南路站,西蔵南路駅,South_Xizang_Road_Station
+SHMS089,SH,MS,南浦大桥,南浦大橋,南浦大橋,Nanpu Bridge,nanpudaqiao,npdq,31.20845,121.499344,2016,1937,南浦大桥站,南浦大橋駅,Nanpu_Bridge_Station
+SHMS090,SH,MS,塘桥,塘橋,塘橋,Tangqiao,tangqiao,tq,31.20981,121.518638,2151,1936,塘桥站,塘橋駅,Nanpu_Bridge_Station
+SHMS091,SH,MS,蓝村路,藍村路,藍村路,Lancun Road,lancunlu,lcl,31.211894,121.528297,2269,1937,蓝村路站,藍村路駅,Lancun_Road_Station
+SHMS092,SH,MS,浦电路(4号线),浦電路(4號綫),浦電路(4号線),Pudian Road(Line 4),pudianlu,pdl,31.222481,121.532103,2341,1815,浦电路站,浦電路駅,Pudian_Road_Station_(Line_4)
+SHMS093,SH,MS,浦东大道,浦東大道,浦東大道,Pudong Avenue,pudongdadao,pddd,31.24032,121.519842,2341,1511,浦东大道站,浦東大道駅,Pudong_Avenue_Station
+SHMS094,SH,MS,杨树浦路,楊樹浦路,楊樹浦路,Yangshupu Road,yangshupulu,yspl,31.252419,121.517201,2341,1382,杨树浦路站,楊樹浦路駅,Yangshupu_Road_Station
+SHMS095,SH,MS,大连路,大連路,大連路,Dalian Road,dalianlu,dll,31.258209,121.512847,2339,1256,大连路站,大連路駅,Dalian_Road_Station
+SHMS096,SH,MS,临平路,臨平路,臨平路,Linping Road,linpinglu,lpl,31.260924,121.500935,2237,1164,临平路站,臨平路駅,Linping_Road_Station
+SHMS097,SH,MS,海伦路,海倫路,海倫路,Hailun Road,hailunlu,hll,31.259589,121.488512,2125,1164,海伦路站,海倫路駅,Hailun_Road_Station
+SHMS098,SH,MS,春申路,春申路,春申路,Chunshen Road,chunshenlu,csl,31.098695,121.385374,795,2569,春申路站,春申路駅,Chunshen_Road_Station
+SHMS099,SH,MS,银都路,銀都路,銀都路,Yindu Road,yindulu,ydl,31.089582,121.390493,795,2658,银都路站,銀都路駅,Yindu_Road_Station
+SHMS100,SH,MS,颛桥,顓橋,ジュアン橋,Zhuanqiao,zhuanqiao,zq,31.066755,121.401932,796,2749,颛桥站,セン橋駅,Zhuanqiao_Station
+SHMS101,SH,MS,北桥,北橋,北橋,Beiqiao,beiqiao,bq,31.044865,121.41011,796,2838,北桥站,北橋駅,Beiqiao_Station
+SHMS102,SH,MS,剑川路,劍川路,剣川路,Jianchuan Road,jianchuanlu,jcl,31.026226,121.416514,795,2928,剑川路站,剣川路駅,Jianchuan_Road_Station
+SHMS103,SH,MS,东川路,東川路,東川路,Dongchuan Road,dongchuanlu,dcl,31.018074,121.419868,795,3018,东川路站,東川路駅,Dongchuan_Road_Station
+SHMS104,SH,MS,金平路,金平路,金平路,Jinping Road,jinpinglu,jpl,31.011138,121.410198,750,3067,金平路站,金平路駅,Jinping_Road_Station
+SHMS105,SH,MS,华宁路,華寧路,華寧路,Huaning Road,huaninglu,hnl,31.007389,121.395085,663,3063,华宁路站,華寧路駅,Huaning_Road_Station
+SHMS106,SH,MS,文井路,文井路,文井路,Wenjing Road,wenjinglu,wjl,31.003491,121.380601,577,3066,文井路站,文井路駅,Wenjing_Road_Station
+SHMS107,SH,MS,闵行开发区,閔行開發區,閔行開発区,Minhang Development Zone,minhangkaifaqu,mhkfq,31.000548,121.369808,492,3065,闵行开发区站,閔行開発区駅,Minhang_Development_Zone_Station
+SHMS108,SH,MS,港城路,港城路,港城路,Gangcheng Road,gangchenglu,gcl,31.353596,121.574924,3047,406,港城路站,港城路駅,Gangcheng_Road_Station
+SHMS109,SH,MS,外高桥保税区北,外高橋保稅區北,外高橋保税区北,North Waigaoqiao Free Trade Zone,waigaoqiaobaoshuiqubei,wgqbsqb,31.347791,121.586981,3116,474,外高桥保税区北站,外高橋保税区北駅,North_Waigaoqiao_Free_Trade_Zone_Station
+SHMS110,SH,MS,航津路,航津路,航津路,Hangjin Road,hangjinlu,hjl,31.335146,121.594137,3116,582,航津路站,航津路駅,Hangjin_Road_Station
+SHMS111,SH,MS,外高桥保税区南,外高橋保稅區南,外高橋保税区南,South Waigaoqiao Free Trade Zone,waigaoqiaobaoshuiqunan,wgqbsqn,31.321472,121.602087,3117,690,外高桥保税区南站,外高橋保税区南駅,South_Waigaoqiao_Free_Trade_Zone_Station
+SHMS112,SH,MS,洲海路,洲海路,洲海路,Zhouhai Road,zhouhailu,zhl,31.312142,121.58932,3049,802,洲海路站,洲海路駅,Zhouhai_Road_Station
+SHMS113,SH,MS,五洲大道,五洲大道,五洲大道,Wuzhou Avenue,wuzhoudadao,wzdd,31.302572,121.589384,3049,925,五洲大道站,五洲大道駅,Wuzhou_Avenue_Station
+SHMS114,SH,MS,东靖路,東靖路,東靖路,Dongjing Road,dongjinglu,djl,31.290345,121.588834,3049,1049,東靖路站,東靖路駅,Dongjing_Road_Station
+SHMS115,SH,MS,巨峰路,巨峰路,巨峰路,Jufeng Road,jufenglu,jfl,31.280643,121.588374,3047,1203,巨峰路站,巨峰路駅,Jufeng_Road_Station
+SHMS116,SH,MS,五莲路,五蓮路,五蓮路,Wulian Road,wulianlu,wll,31.271912,121.587989,3049,1302,五莲路站,五蓮路駅,Wulian_Road_Station
+SHMS117,SH,MS,博兴路,博興路,博興路,Boxing Road,boxinglu,bxl,31.264144,121.586933,3007,1420,博兴路站,博興路駅,Boxing_Road_Station
+SHMS118,SH,MS,金桥路,金橋路,金橋路,Jinqiao Road,jinqiaolu,jql,31.256753,121.581511,2933,1494,金橋路站,金橋路駅,Jinqiao_Road_Station
+SHMS119,SH,MS,云山路,雲山路,雲山路,Yunshan Road,yunshanlu,ysl,31.250997,121.573691,2858,1569,云山路站,雲山路駅,Yunshan_Road_Station
+SHMS120,SH,MS,德平路,德平路,徳平路,Deping Road,depinglu,dpl,31.245353,121.564161,2746,1607,德平路站,徳平路駅,Deping_Road_Station
+SHMS121,SH,MS,北洋泾路,北洋涇路,北洋涇路,Beiyangjing Road,beiyangjinglu,byjl,31.239121,121.55226,2650,1604,北洋泾路站,北洋涇路駅,Beiyangjing_Road_Station
+SHMS122,SH,MS,民生路,民生路,民生路,Minsheng Road,minshenglu,msl,31.235644,121.542889,2554,1606,民生路站,民生路駅,Minsheng_Road_Station
+SHMS123,SH,MS,源深体育中心,源深體育中心,源深体育中心,Yuanshen Stadium,yuanshentiyuzhongxin,ystyzx,31.232924,121.534394,2458,1604,源深体育中心站,源深体育中心駅,Yuanshen_Stadium_Station
+SHMS124,SH,MS,浦电路(6号线),浦電路(6號綫),浦電路(6号線),Pudian Road(Line 6),pudianlu,pdl,31.220733,121.528778,2270,1815,浦电路站,浦電路駅,Pudian_Road_Station_(Line_6)
+SHMS125,SH,MS,上海儿童医学中心,上海兒童醫學中心,上海児童医学中心,Shanghai Children's Medical Center,shanghaiertongyixuezhongxin,shetyxzx,31.204327,121.523876,2250,2048,上海兒童醫學中心站,上海児童医学中心駅,Shanghai_Children's_Medical_Center_Station
+SHMS126,SH,MS,临沂新村,臨沂新村,臨沂新村,Linyi Xincun,linyixincun,lyxc,31.193332,121.516915,2173,2122,臨沂新村站,臨沂新村駅,Linyi_Xincun_Station
+SHMS127,SH,MS,高科西路,高科西路,高科西路,West Gaoke Road,gaokexilu,gkxl,31.185809,121.50978,2111,2200,高科西路站,高科西路駅,West_Gaoke_Road_Station
+SHMS128,SH,MS,东明路,東明路,東明路,Dongming Road,dongminglu,dml,31.172728,121.510709,2110,2324,東明路站,東明路駅,Dongming_Road_Station
+SHMS129,SH,MS,高青路,高青路,高青路,Gaoqing Road,gaoqinglu,gql,31.159629,121.515997,2114,2419,高青路站,高青路駅,Gaoqing_Road_Station
+SHMS130,SH,MS,华夏西路,華夏西路,華夏西路,West Huaxia Road,huaxiaxilu,hxxl,31.149853,121.514282,2027,2469,华夏西路站,華夏西路駅,West_Huaxia_Road_Station
+SHMS131,SH,MS,上南路,上南路,上南路,Shangnan Road,shangnanlu,snl,31.148806,121.506472,1934,2471,上南路站,上南路駅,Shangnan_Road_Station
+SHMS132,SH,MS,灵岩南路,靈巖南路,霊岩南路,South Lingyan Road,linyannanlu,lynl,31.148916,121.495035,1839,2469,灵岩南路站,霊岩南路駅,South_Lingyan_Road_Station
+SHMS133,SH,MS,东方体育中心,東方體育中心,東方体育中心,Oriental Sports Centre,dongfangtiyuzhongxin,dftyzx,31.153434,121.480422,1724,2471,东方体育中心站,東方体育中心駅,Oriental_Sports_Center_Station
+SHMS134,SH,MS,花木路,花木路,花木路,Huamu Road,huamulu,hml,31.211435,121.562801,2571,1973,花木路站,花木路駅,Huamu_Road_Station
+SHMS135,SH,MS,芳华路,芳華路,芳華路,Fanghua Road,fanghualu,fhl,31.193053,121.550033,2485,2153,芳华路站,芳華路駅,Fanghua_Road_Station
+SHMS136,SH,MS,锦绣路,錦繡路,錦綉路,Jinxiu Road,jinxiulu,jxl,31.187594,121.540185,2355,2202,锦绣路站,錦繍路駅,Jinxiu_Road_Station
+SHMS137,SH,MS,杨高南路,楊高南路,楊高南路,South Yanggao Road,yanggaonanlu,ygnl,31.187573,121.525106,2235,2199,杨高南路站,楊高南路駅,South_Yanggao_Road_Station
+SHMS138,SH,MS,云台路,雲台路,雲台路,Yuntai Road,yuntailu,ytl,31.182362,121.500435,1986,2200,云台路站,雲台路駅,Yuntai_Road_Station
+SHMS139,SH,MS,耀华路,耀華路,耀華路,Yaohua Road,yaohualu,yhl,31.1785326,121.4947225,1864,2201,耀华路站,耀華路駅,Yaohua_Road_Station
+SHMS140,SH,MS,长清路,長清路,長清路,Changqing Road,changqinglu,cql,31.174846,121.486483,1723,2201,长清路站,長清路駅,Changqing_Road_Station
+SHMS141,SH,MS,后滩,後灘,後灘,Houtan,houtan,ht,31.174225,121.469314,1601,2200,后滩站,後灘駅,Houtan_Station
+SHMS142,SH,MS,龙华中路,龍華中路,竜華中路,Middle Longhua Road,longhuazhonglu,lhzl,31.185245,121.460258,1411,2088,龙华中路站,龍華中路駅,Chuanchang_Road_Station
+SHMS143,SH,MS,肇嘉浜路,肇嘉浜路,肇嘉浜路,Zhaojiabang Road,zhaojiabanglu,zjbl,31.199584,121.450325,1410,1792,肇嘉浜路站,肇嘉浜路駅,Zhaojiabang_Road_Station
+SHMS144,SH,MS,昌平路,昌平路,昌平路,Changping Road,changpinglu,cpl,31.23435,121.442202,1413,1374,昌平路站,昌平路駅,Changping_Road_Station
+SHMS145,SH,MS,长寿路,長壽路,長寿路,Changshou Road,changshoulu,csl,31.240272,121.437916,1412,1281,长寿路站_(上海),長寿路駅_(上海市),Changshou_Road_Station
+SHMS146,SH,MS,岚皋路,嵐皋路,嵐皋路,Langao Road,langaolu,lgl,31.255661,121.421735,1414,1074,岚皋路站,嵐皋路駅,Langao_Road_Station
+SHMS147,SH,MS,新村路,新村路,新村路,Xincun Road,xincunlu,xcl,31.26397,121.422744,1411,1003,新村路站,新村路駅,Xincun_Road_Station
+SHMS148,SH,MS,大华三路,大華三路,大華三路,Dahuasan Road,dahuasanlu,dhsl,31.273661,121.423086,1413,933,大华三路站,大華三路駅,Dahuasan_Road_Station
+SHMS149,SH,MS,行知路,行知路,行知路,Xingzhi Road,xingzhilu,xzl,31.284672,121.421837,1411,864,行知路站,行知路駅,Xingzhi_Road_Station
+SHMS150,SH,MS,大场镇,大場鎮,大場鎮,Dachang Town,dachangzhen,dcz,31.292616,121.417122,1414,792,大场镇站,大場鎮駅,Dachang_Town_Station
+SHMS151,SH,MS,场中路,場中路,場中路,Changzhong Road,changzhonglu,czl,31.303965,121.413732,1412,722,场中路站,場中路駅,Changzhong_Road_Station
+SHMS152,SH,MS,上大路,上大路,上大路,Shangda Road,shangdalu,sdl,31.314339,121.409021,1414,652,上大路站,上大路駅,Shangda_Road_Station
+SHMS153,SH,MS,南陈路,南陳路,南陳路,Nanchen Road,nanchenlu,ncl,31.321324,121.397208,1343,602,南陈路站,南陳路駅,Nanchen_Road_Station
+SHMS154,SH,MS,上海大学,上海大學,上海大学,Shanghai University,shanghaidaxue,shdx,31.320593,121.388969,1224,602,上海大学站,上海大学駅,Shanghai_University_Station
+SHMS155,SH,MS,顾村公园,顧村公園,顧村公園,Gucun Park,gucungongyuan,gcgy,31.344218,121.373359,1136,467,顾村公园站,顧村公園駅,Gucun_Park_Station
+SHMS156,SH,MS,刘行,劉行,劉行,Liuhang,liuhang,lh,31.357384,121.363542,1133,397,刘行站,劉行駅,Liuhang_Station
+SHMS157,SH,MS,潘广路,潘廣路,潘広路,Panguang Road,panguanglu,pgl,31.364292,121.35689,1136,327,潘广路站,潘広路駅,Panguang_Road_Station
+SHMS158,SH,MS,罗南新村,羅南新村,羅南新村,Luonan Xincun,luonanxincun,lnxc,31.388574,121.357452,1133,256,罗南新村站,羅南新村駅,Luonan_Xincun_Station
+SHMS159,SH,MS,美兰湖,美蘭湖,美蘭湖,Meilan Lake,meilanhu,mlh,31.401546,121.35041,1136,186,美兰湖站,美蘭湖駅,Meilan_Lake_Station
+SHMS160,SH,MS,沈杜公路,沈杜公路,沈杜公路,Shendu Highway,shendugonglu,sdgl,31.061573,121.512136,1724,3089,沈杜公路站,航天博物館駅,Aerospace_Museum_Station
+SHMS161,SH,MS,联航路,聯航路,聯航路,Lianhang Road,lianhanglu,lhl,31.074072,121.510377,1723,2988,联航路站,聯航路駅,Lianhang_Road_Station
+SHMS162,SH,MS,江月路,江月路,江月路,Jiangyue Road,jiangyuelu,jyl,31.083753,121.508582,1722,2887,江月路站,江月路駅,Jiangyue_Road_Station
+SHMS163,SH,MS,浦江镇,浦江鎮,浦江鎮,Pujiang Town,pujiangzhen,pjz,31.096319,121.50636,1723,2786,浦江镇站,浦江鎮駅,Pujiang_Town_Station
+SHMS164,SH,MS,芦恒路,蘆恆路,芦恒路,Luheng Road,luhenglu,lhl,31.1173,121.49864,1723,2684,芦恒路站,芦恒路駅,Luheng_Road_Station
+SHMS165,SH,MS,凌兆新村,凌兆新村,凌兆新村,Lingzhao Xincun,linzhaoxincun,lzxc,31.141062,121.489746,1724,2582,凌兆新村站,凌兆新村駅,Lingzhao_Xincun_Station
+SHMS166,SH,MS,杨思,楊思,楊思,Yangsi,yangsi,ys,31.160795,121.494042,1794,2395,杨思站,楊思駅,Yangsi_Station
+SHMS167,SH,MS,成山路,成山路,成山路,Chengshan Road,chengshanlu,csl,31.171379,121.496065,1863,2325,成山路站,成山路駅,Chengshan_Road_Station
+SHMS168,SH,MS,中华艺术宫,中華藝術宮,中華芸術宮,China Art Museum,zhonghuayishugong,zhysg,31.185075,121.49375,1866,2097,中华艺术宫站,中華芸術宮駅,China_Art_Museum_Station
+SHMS169,SH,MS,陆家浜路,陸家浜路,陸家浜路,Lujiabang Road,lujiangbanglu,ljbl,31.2122229,121.4859802,1865,1791,陆家浜路站,陸家浜路駅,Lujiabang_Road_Station
+SHMS170,SH,MS,老西门,老西門,老西門,Laoximen,laoximen,lxm,31.219066,121.483696,1865,1678,老西門站,老西門駅,Laoximen_Station
+SHMS171,SH,MS,大世界,大世界,大世界,Dashijie,dashijie,dsj,31.227219,121.479268,1866,1588,大世界站,大世界駅,Dashijie_Station
+SHMS172,SH,MS,曲阜路,曲阜路,曲阜路,Qufu Road,qufulu,qfl,31.242278,121.471512,1865,1297,曲阜路站,曲阜路駅,Qufu_Road_Station
+SHMS173,SH,MS,中兴路,中興路,中興路,Zhongxing Road,zhongxinglu,zxl,31.253172,121.468893,1864,1075,中興路站,中興路駅,Zhongxing_Road_Station
+SHMS174,SH,MS,西藏北路,西藏北路,西蔵北路,North Xizang Road,xizangbeilu,xzbl,31.264002,121.469264,1909,995,西藏北路站,西蔵北路駅,North_Xizang_Road_Station
+SHMS175,SH,MS,曲阳路,曲陽路,曲陽路,Quyang Road,quyanglu,qyl,31.27652,121.49071,2180,949,曲阳路站,曲陽路駅,Quyang_Road_Station
+SHMS176,SH,MS,四平路,四平路,四平路,Siping Road,sipinglu,spl,31.274981,121.501517,2308,988,四平路站,四平路駅,Siping_Road_Station
+SHMS177,SH,MS,鞍山新村,鞍山新村,鞍山新村,Anshan Xincun,anshanxincun,asxc,31.272855,121.509528,2419,1029,鞍山新村站,鞍山新村駅,Anshan_Xincun_Station
+SHMS178,SH,MS,江浦路,江浦路,江浦路,Jiangpu Road,jiangpulu,jpl,31.274887,121.517998,2532,1028,江浦路站,江浦路駅,Jiangpu_Road_Station
+SHMS179,SH,MS,黄兴路,黃興路,黄興路,Huangxing Road,huangxinglu,hxl,31.278606,121.528037,2632,994,黃興路站,黄興路駅,Huangxing_Road_Station
+SHMS180,SH,MS,延吉中路,延吉中路,延吉中路,Middle Yanji Road,yanjizhonglu,yjzl,31.288294,121.53494,2671,897,延吉中路站,延吉中路駅,Middle_Yanji_Road_Station
+SHMS181,SH,MS,黄兴公园,黃興公園,黄興公園,Huangxing Park,huangxinggongyuan,hxgy,31.296518,121.532766,2671,800,黃興公園站,黄興公園駅,Huangxing_Park_Station
+SHMS182,SH,MS,翔殷路,翔殷路,翔殷路,Xiangyin Road,xiangyinlu,xyl,31.30513,121.531976,2671,708,翔殷路站,翔殷路駅,Xiangyin_Road_Station
+SHMS183,SH,MS,嫩江路,嫩江路,ネン江路,Nenjiang Road,nenjianglu,njl,31.315148,121.531959,2671,615,嫩江路站,嫩江路駅,Nenjiang_Road_Station
+SHMS184,SH,MS,市光路,市光路,市光路,Shiguang Road,shiguanglu,sgl,31.322107,121.531958,2671,519,市光路站,市光路駅,Shiguang_Road_Station
+SHMS185,SH,MS,杨高中路,楊高中路,楊高中路,Middle Yanggao Road,yanggaozhonglu,ygzl,31.227584,121.548661,2536,1726,杨高中路站,楊高中路駅,Middle_Yanggao_Road_Station
+SHMS186,SH,MS,商城路,商城路,商城路,Shangcheng Road,shangchenglu,scl,31.229787,121.515849,2196,1679,商城路站,商城路駅,Shangcheng_Road_Station
+SHMS187,SH,MS,小南门,小南門,小南門,Xiaonanmen,xiaonanmen,xnm,31.216698,121.498373,2013,1754,小南门站_(上海),小南門駅_(上海市),Xiaonanmen_Station_(Shanghai_Metro)
+SHMS188,SH,MS,马当路,馬當路,馬当路,Madang Road,madanglu,mdl,31.209181,121.476386,1724,1791,马当路站,馬当路駅,Madang_Road_Station
+SHMS189,SH,MS,打浦桥,打浦橋,打浦橋,Dapuqiao,dapuqiao,dpq,31.206115,121.46877,1636,1790,打浦桥站,打浦橋駅,Dapuqiao_Station
+SHMS190,SH,MS,嘉善路,嘉善路,嘉善路,Jiashan Road,jiashanlu,jsl,31.202869,121.460902,1549,1791,嘉善路站,嘉善路駅,Jiashan_Road_Station
+SHMS191,SH,MS,桂林路,桂林路,桂林路,Guilin Road,guilinlu,gll,31.174586,121.416929,962,1849,桂林路站,桂林路駅,Guilin_Road_Station
+SHMS192,SH,MS,漕河泾开发区,漕河涇開發區,漕河涇開発区,Caohejing Hi-Tech Park,caohejingkaifaqu,chjkfq,31.170814,121.397995,846,1929,漕河泾开发区站,漕河涇開発区駅,Caohejing_Hi-Tech_Park_Station
+SHMS193,SH,MS,合川路,合川路,合川路,Hechuan Road,hechuanlu,hcl,31.16692,121.385922,732,1927,合川路站,合川路駅,Hechuan_Road_Station
+SHMS194,SH,MS,星中路,星中路,星中路,Xingzhong Road,xingzhonglu,xzl,31.158067,121.368412,618,1929,星中路站,星中路駅,Xingzhong_Road_Station
+SHMS195,SH,MS,七宝,七寶,七宝,Qibao,qibao,qb,31.155034,121.34876,511,1928,七宝站,七宝駅_(上海市),Qibao_Station
+SHMS196,SH,MS,中春路,中春路,中春路,Zhongchun Road,zhongchunlu,zcl,31.149354,121.338349,402,1929,中春路站,中春路駅,Zhongchun_Road_Station
+SHMS197,SH,MS,九亭,九亭,九亭,Jiuting,jiuting,jt,31.137704,121.319576,294,1928,九亭站,九亭駅,Jiuting_Station
+SHMS198,SH,MS,泗泾,泗涇,泗涇,Sijing,sijing,sj,31.118482,121.260417,185,1929,泗泾站,泗涇駅,Sijing_Station
+SHMS199,SH,MS,佘山,佘山,シャー山,Sheshan,sheshan,ss,31.104208,121.229839,122,2034,佘山站,シャ山駅,Sheshan_Station
+SHMS200,SH,MS,洞泾,洞涇,洞涇,Dongjing,dongjing,djl,31.084584,121.230762,122,2131,洞泾站,洞涇駅,Dongjing_Station
+SHMS201,SH,MS,松江大学城,松江大學城,松江大学城,Songjiang University Town,songjiangdaxuecheng,sjdxc,31.05389,121.2328,123,2224,松江大学城站,松江大学城駅,Songjiang_University_Town_Station
+SHMS202,SH,MS,松江新城,松江新城,松江新城,Songjiang Xincheng,songjiangxincheng,sjxc,31.030725,121.230994,122,2316,松江新城站,松江新城駅,Songjiang_Xincheng_Station
+SHMS203,SH,MS,松江体育中心,松江體育中心,松江体育中心,Songjiang Sports Center,songjiangtiyuzhongxin,sjtyzx,31.015536,121.230691,123,2413,松江体育中心站,松江体育中心駅,Songjiang_Sports_Center_Station
+SHMS204,SH,MS,醉白池,醉白池,酔白池,Zuibaichi Park,zuibaichi,zbc,31.00098,121.22869,122,2504,醉白池站,酔白池駅,Zuibaichi_Station
+SHMS205,SH,MS,松江南站,松江南站,松江南駅,Songjiang South Railway Station,songjiangnanzhan,sjnz,30.983422,121.229965,123,2602,松江南站站,松江南駅,Songjiang_South_Railway_Station
+SHMS206,SH,MS,新江湾城,新江灣城,新江湾城,Xinjiangwancheng,xinjiangwancheng,xjwc,31.329058,121.50664,2461,426,新江湾城站,新江湾城駅,Xinjiangwancheng_Station
+SHMS207,SH,MS,殷高东路,殷高東路,殷高東路,East Yingao Road,yingaodonglu,ygdl,31.321457,121.506563,2461,520,殷高东路站,殷高東路駅,East_Yingao_Road_Station
+SHMS208,SH,MS,三门路,三門路,三門路,Sanmen Road,sanmenlu,sml,31.313049,121.508017,2461,614,三门路站,三門路駅,Sanmen_Road_Station
+SHMS209,SH,MS,江湾体育场,江灣體育場,江湾体育場,Jiangwan Stadiium,jiangwantiyuchang,jwtyc,31.303121,121.514015,2461,706,江湾体育场站,江湾体育場駅,Jiangwan_Stadium_Station
+SHMS210,SH,MS,五角场,五角場,五角場,Wujiaochang,wujiaochang,wjc,31.298687,121.514968,2462,801,五角场站,五角場駅,Wujiaochang_Station
+SHMS211,SH,MS,国权路,國權路,国権路,Guoquan Road,guoquanlu,gql,31.289664,121.510228,2431,864,国权路站,国権路駅,Guoquan_Road_Station
+SHMS212,SH,MS,同济大学,同濟大學,同済大学,Tongji University,tongjidaxue,tjdx,31.281339,121.505905,2371,924,同济大学站,同済大学駅,Tongji_University_Station
+SHMS213,SH,MS,邮电新村,郵電新村,郵電新村,Youdian Xincun,youdianxincun,ydxc,31.268641,121.494488,2217,1078,邮电新村站,郵電新村駅,Youdian_Xincun_Station
+SHMS214,SH,MS,四川北路,四川北路,四川北路,North Sichuan Road,sichuanbeilu,scbl,31.251828,121.48414,2064,1230,四川北路站,四川北路駅,North_Sichuan_Road_Station
+SHMS215,SH,MS,天潼路,天潼路,天潼路,Tiantong Road,tiantonglu,ttl,31.244082,121.482453,2016,1298,天潼路站,天潼路駅,Tiantong_Road_Station
+SHMS216,SH,MS,豫园,豫園,豫園,Yuyuan Garden,yuyuan,yy,31.22811,121.487388,2017,1589,豫园站,豫園駅,Yuyuan_Garden_Station
+SHMS217,SH,MS,新天地,新天地,新天地,Xintiandi,xintiandi,xtd,31.216314,121.475099,1723,1680,新天地站,新天地駅,Xintiandi_station
+SHMS218,SH,MS,上海图书馆,上海圖書館,上海図書館,Shanghai Library,shanghaitushuguan,shtsg,31.207798,121.443941,1324,1644,上海图书馆站,上海図書館駅,Shanghai_Library_Station
+SHMS219,SH,MS,交通大学,交通大學,交通大学,Jiaotong University,jiaotongdaxue,jtdx,31.201973,121.434588,1236,1645,交通大学站,交通大学駅,Jiaotong_University_Station
+SHMS220,SH,MS,宋园路,宋園路,宋園路,Songyuan Road,songyuanlu,syl,31.196609,121.411652,985,1646,宋园路站,宋園路駅,Songyuan_Road_Station
+SHMS221,SH,MS,伊犁路,伊犁路,伊犁路,Yili Road,yililu,yll,31.199076,121.403318,903,1646,伊犁路站,伊犁路駅,Yili_Road_Station
+SHMS222,SH,MS,水城路,水城路,水城路,Shuicheng Road,shuichenglu,scl,31.199453,121.39213,820,1644,水城路站,水城路駅,Shuicheng_Road_Station
+SHMS223,SH,MS,龙溪路,龍溪路,竜渓路,Longxi Road,longxilu,lxl,31.194283,121.379875,739,1647,龙溪路站,竜渓路駅,Longxi_Road_Station
+SHMS224,SH,MS,龙柏新村,龍柏新村,竜柏新村,Longbai Xincun,longbaixincun,lbxc,31.17688,121.370387,682,1741,龙柏新村站,竜柏新村駅,Longbai_Xincun_Station
+SHMS225,SH,MS,紫藤路,紫藤路,紫藤路,Ziteng Road,zitenglu,ztl,31.169758,121.364328,628,1784,紫藤路站,紫藤路駅,Ziteng_Road_Station
+SHMS226,SH,MS,航中路,航中路,航中路,Hangzhong Road,hangzhonglu,hzl,31.165628,121.354518,515,1785,航中路站,航中路駅,Hangzhong_Road_Station
+SHMS227,SH,MS,上海动物园,上海動物園,上海動物園,Shanghai Zoo,shanghaidongwuyuan,shdwy,31.190226,121.366932,646,1645,上海动物园站,上海動物園駅,Shanghai_Zoo_Station
+SHMS228,SH,MS,虹桥1号航站楼,虹橋1號航站樓,虹橋第1ターミナル,Hongqiao Airport Terminal 1,hongqiaoyihaohangzhanlou,hqyhhzl,31.191178,121.348391,552,1646,虹桥1号航站楼站,虹橋1号航站楼駅,Hongqiao_Airport_Terminal_1_Station
+SHMS229,SH,MS,罗山路,羅山路,羅山路,Luoshan Road,luoshanlu,lsl,31.154682,121.592471,2569,2567,罗山路站,羅山路駅,Luoshan_Road_Station
+SHMS230,SH,MS,御桥,禦橋,御橋,Yuqiao,yuqiao,yq,31.158373,121.571185,2456,2569,御桥站,御橋駅,Yuqiao_Station
+SHMS231,SH,MS,浦三路,浦三路,浦三路,Pusan Road,pusanlu,psl,31.150863,121.538891,2196,2569,浦三路站,浦三路駅,Pusan_Road_Station
+SHMS232,SH,MS,三林东,三林東,三林東,East Sanlin,sanlindong,sld,31.146547,121.523162,2065,2570,三林东站,三林東駅,Sanlin_East_Station
+SHMS233,SH,MS,三林,三林,三林,Sanlin,sanlin,sl,31.142984,121.510974,1934,2569,三林站,三林駅,Sanlin_Station
+SHMS234,SH,MS,龙耀路,龍耀路,竜耀路,Longyao Road,longyaolu,lyl,31.15942,121.459583,1340,2302,龙耀路站,龍耀路駅,Longyao_Road_Station
+SHMS235,SH,MS,云锦路,雲錦路,雲錦路,Yunjin Road,yunjinlu,yjl,31.166507,121.458253,1340,2202,云锦路站_(上海),雲錦路駅_(上海市),Yunjin_Road_Station
+SHMS236,SH,MS,龙华,龍華,竜華,Longhua,longhua,lh,31.173172,121.452652,1263,2088,龙华站_(上海市),竜華駅_(上海市),Longhua_Station_(Shanghai)
+SHMS237,SH,MS,上海游泳馆,上海游泳館,上海遊泳館,Shanghai Swimming Center,shanghaiyouyongguan,shyyg,31.178505,121.440949,1238,1983,上海游泳馆站,上海遊泳館駅,Shanghai_Swimming_Center_Station
+SHMS238,SH,MS,隆德路,隆德路,隆徳路,Longde Road,longdelu,ldl,31.231107,121.422804,1236,1281,隆德路站,隆徳路駅,Longde_Road_Station
+SHMS239,SH,MS,枫桥路,楓橋路,楓橋路,Fengqiao Road,fengqiaolu,fql,31.242133,121.41106,1237,1074,枫桥路站,楓橋路駅,Fengqiao_Road_Station
+SHMS240,SH,MS,真如,真如,真如,Zhenru,zhenru,zr,31.251101,121.407208,1206,993,真如站,真如駅,Zhenru_Station
+SHMS241,SH,MS,上海西站,上海西站,上海西駅,Shanghai West Railway Station,shanghaixizhan,shxz,31.262407,121.403556,1153,939,上海西站站,上海西駅,Shanghai_West_Railway_Station
+SHMS242,SH,MS,李子园,李子園,李子園,Liziyuan,liziyuan,lzy,31.269056,121.38969,1101,888,李子园站,李子園駅,Liziyuan_Station
+SHMS243,SH,MS,祁连山路,祁連山路,祁連山路,Qilianshan Road,qilianshanlu,qlsl,31.271586,121.376859,1028,860,祁连山路站,祁連山路駅,Qilianshan_Road_Station
+SHMS244,SH,MS,武威路,武威路,武威路,Wuwei Road,wuweilu,wwl,31.276601,121.365257,941,862,武威路站,武威路駅,Wuwei_Road_Station
+SHMS245,SH,MS,桃浦新村,桃浦新村,桃浦新村,Taopu Xincun,taopuxincun,tpxc,31.281663,121.349776,854,858,桃浦新村站,桃浦新村駅,Taopu_Xincun_Station
+SHMS246,SH,MS,南翔,南翔,南翔,Nanxiang,nanxiang,nx,31.297016,121.323481,774,833,南翔站_(轨道交通),南翔駅_(上海地下鉄),Nanxiang_Station_(Shanghai_Metro)
+SHMS247,SH,MS,马陆,馬陸,馬陸,Malu,malu,ml,31.31943,121.269656,704,765,马陆站,馬陸駅,Malu_Station
+SHMS248,SH,MS,嘉定新城,嘉定新城,嘉定新城,Jiading Xincheng,jiadingxincheng,jdxc,31.330161,121.25428,671,678,嘉定新城站,嘉定新城駅,Jiading_Xincheng_Station
+SHMS249,SH,MS,白银路,白銀路,白銀路,Baiyin Road,baiyinlu,byl,31.345006,121.245525,670,581,白银路站,白銀路駅,Baiyin_Road_Station
+SHMS250,SH,MS,嘉定西,嘉定西,嘉定西,West Jiading,jiadingxi,jdx,31.376979,121.227908,670,489,嘉定西站,嘉定西駅,West_Jiading_Station
+SHMS251,SH,MS,嘉定北,嘉定北,嘉定北,North Jiading,jiadingbei,jdb,31.39163,121.237285,670,396,嘉定北站,嘉定北駅,North_Jiading_Station
+SHMS252,SH,MS,上海赛车场,上海賽車場,上海賽車場,Shanghai Circuit,shanghaisaichechang,shscc,31.331829,121.225441,596,638,上海賽車場站,上海賽車場駅,Shanghai_Circuit_Station
+SHMS253,SH,MS,昌吉东路,昌吉東路,昌吉東路,East Changji Road,changjidonglu,cjdl,31.293734,121.200367,513,690,昌吉东路站,昌吉東路駅,East_Changji_Road_Station
+SHMS254,SH,MS,上海汽车城,上海汽車城,上海汽車城,Shanghai Automobile City,shanghaiqichecheng,shqcc,31.285671,121.180569,432,739,上海汽車城站,上海汽車城駅,Shanghai_Automobile_City_Station
+SHMS255,SH,MS,安亭,安亭,安亭,Anting,anting,at,31.28835,121.162341,346,737,安亭站_(地铁),安亭駅_(上海地下鉄),Anting_Station
+SHMS256,SH,MS,兆丰路,兆豐路,兆豊路,Zhaofeng Road,zhaofenglu,zfl,31.289242,121.150078,261,739,兆丰路站,兆豊路駅,Zhaofeng_Road_Station
+SHMS257,SH,MS,光明路,光明路,光明路,Guangming Road,guangminglu,gml,31.296705,121.115853,174,736,光明路站,光明路駅,Guangming_Road_Station
+SHMS258,SH,MS,花桥,花橋,花橋,Huaqiao,huaqiao,hq,31.298923,121.101841,88,739,花桥站_(地铁),null,Huaqiao_Station
+SHMS259,SH,MS,国际客运中心,國際客運中心,国際客運中心,International Cruise Terminal,guojikeyunzhongxin,gjkyzx,31.249112,121.495761,2130,1300,国际客运中心站,null,null
+SHMS260,SH,MS,提篮桥,提籃橋,提籃橋,Tilanqiao,tilanqiao,tlq,31.253387,121.506018,2238,1298,提篮桥站,null,Tilanqiao_Station
+SHMS261,SH,MS,江浦公园,江浦公園,江浦公園,Jiangpu Park,jiangpugongyuan,jpgy,31.264594,121.523763,2459,1203,江浦公园站,null,Jiangpu_Park_Station
+SHMS262,SH,MS,宁国路,寧國路,寧国路,Ningguo Road,ningguolu,ngl,31.268776,121.532604,2554,1204,宁国路站,null,Ningguo_Road_Station
+SHMS263,SH,MS,隆昌路,隆昌路,隆昌路,Longchang Road,longchanglu,lcl,31.274663,121.544289,2650,1204,隆昌路站,null,Longchang_Road_Station
+SHMS264,SH,MS,爱国路,愛國路,愛国路,Aiguo Road,aiguolu,agl,31.280055,121.552722,2747,1205,爱国路站,null,Aiguo_Road_Station
+SHMS265,SH,MS,复兴岛,復興島,復興島,Fuxing Island,fuxingdao,fxd,31.280211,121.56197,2843,1202,复兴岛站,null,Fuxing_Island_Station
+SHMS266,SH,MS,东陆路,東陸路,東陸路,Donglu Road,donglulu,dll,31.282494,121.579875,2956,1203,东陆路站,null,Donglu_Road_Station
+SHMS267,SH,MS,杨高北路,楊高北路,楊高北路,North Yanggao Road,yanggaobeilu,ygbl,31.280348,121.603414,3151,1204,杨高北路站,null,North_Yanggao_Road_Station
+SHMS268,SH,MS,金京路,金京路,金京路,Jinjing Road,jinjinglu,jjl,31.279706,121.615945,3247,1202,金京路站,null,Jinjing_Road_Station
+SHMS269,SH,MS,申江路,申江路,申江路,Shenjiang Road,shenjianglu,sjl,31.279871,121.626438,3300,1303,申江路站,null,Shenjiang_Road_Station
+SHMS270,SH,MS,金海路,金海路,金海路,Jinhai Road,jinhailu,jhl,31.263603,121.638154,3301,1404,金海路站,null,Jinhai_Road_Station
+SHMS271,SH,MS,金运路,金運路,金運路,Jinyun Road,jinyunlu,jyl,31.241022,121.319958,459,1205,金运路站,金運路駅,Jinyun_Road_Station
+SHMS272,SH,MS,金沙江西路,金沙江西路,金沙江西路,West Jinshajiang Road,jinshajiangxilu,jsjxl,31.241095,121.335107,553,1202,金沙江西路站,金沙江西路駅,West_Jinshajiang_Road_Station
+SHMS273,SH,MS,丰庄,豐莊,豊荘,Fengzhuang,fengzhuang,fz,31.242178,121.356501,646,1204,丰庄站,豊荘駅,Fengzhuang_Station
+SHMS274,SH,MS,祁连山南路,祁連山南路,祁連山南路,South Qilianshan Road,qilianshannanlu,qlsnl,31.23783,121.367337,739,1202,祁连山南路站,祁连山南路站,null
+SHMS275,SH,MS,真北路,真北路,真北路,Zhenbei Road,zhenbeilu,zbl,31.232179,121.382443,831,1245,真北路站,真北路駅,Zhenbei_Road_Station
+SHMS276,SH,MS,周浦东,周浦東,周浦東,East Zhoupu,zhoupudong,zpd,31.110123,121.605774,2569,2666,周浦东站,null,East_Zhoupu_Station
+SHMS277,SH,MS,鹤沙航城,鶴沙航城,鶴沙航城,Heshahangcheng,heshahangcheng,hshc,31.078115,121.607101,2569,2763,鹤沙航城站,null,Heshahangcheng_Station
+SHMS278,SH,MS,航头东,航頭東,航頭東,East Hangtou,hangtoudong,htd,31.053853,121.606286,2568,2862,航头站,null,Hangtou_Station
+SHMS279,SH,MS,新场,新場,新場,Xinchang,xinchang,xc,31.04536,121.649416,2674,2914,新场站_(上海),null,Xinchang_Station
+SHMS280,SH,MS,野生动物园,野生動物園,野生動物園,Wild Animal Park,yeshengdongwuyuan,ysdwy,31.050066,121.701301,2774,2915,野生动物园站,null,Wild_Animal_Park_Station
+SHMS281,SH,MS,惠南,惠南,恵南,Huinan,huinan,hn,31.053596,121.762405,2872,2914,惠南站,null,Huinan_Station
+SHMS282,SH,MS,惠南东,惠南東,恵南東,East Huinan,huinandong,hnd,31.027085,121.793955,2971,2915,惠南东站,null,East_Huinan_Station
+SHMS283,SH,MS,书院,書院,書院,Shuyuan,shuyuan,sy,30.959321,121.852023,3066,2932,书院站,null,Shuyuan_Station
+SHMS284,SH,MS,临港大道,臨港大道,臨港大道,Lingang Avenue,lingangdadao,lgdd,30.923874,121.910292,3144,3011,临港大道站,null,Lingang_Avenue_Station
+SHMS285,SH,MS,滴水湖,滴水湖,滴水湖,Dishui Lake,dishuihu,dsh,30.907527,121.928831,3223,3089,滴水湖站,null,Dishui_Lake_Station
+SHMS286,SH,MS,春申,春申,春申,Chunshen,chunshen,cs,31.078565,121.354121,640,2570,春申站,null,null
+SHMS287,SH,MS,新桥,新橋,新橋,Xinqiao,xinqiao,xq,31.057989,121.321975,536,2676,新桥站_(上海市),null,null
+SHMS288,SH,MS,车墩,車墩,車墩,Chedun,chedun,cd,31.004759,121.320556,209,2772,null,null,null
+SHMS289,SH,MS,叶榭,葉榭,葉榭,Yexie,yexie,yx,30.941507,121.329271,209,2853,叶榭站,null,null
+SHMS290,SH,MS,亭林,亭林,亭林,Tinglin,tinglin,tl,30.895302,121.35883,208,2936,null,null,null
+SHMS291,SH,MS,金山园区,金山園區,金山園区,Jinshan Industrial Park,jinshanyuanqu,jsyq,30.829471,121.368364,210,3017,null,null,null
+SHMS292,SH,MS,金山卫,金山衛,金山衛,Jinshanwei,jinshanwei,jsw,30.72828,121.362294,209,3099,金山卫站,金山衛駅,null
+SHMS293,SH,MS,张江地铁站,張江地鐵站,張江地下鉄駅,Zhangjiang Subway Station,zhangjiangditiezhan,zjdtz,31.201574,121.585793,2705,2104,null,null,null
+SHMS294,SH,MS,碧波路高科路,碧波路高科路,碧波路高科路,Bibo Road Gaoke Road,bibolugaokelu,bblgkl,31.195586,121.584674,2704,2147,null,null,null
+SHMS295,SH,MS,华佗路达尔文路,華佗路達爾文路,華佗路ダーウィン路,Hualun Road Darwin Road,huatuoludaewenlu,htldewl,31.192551,121.585667,2705,2193,null,null,null
+SHMS296,SH,MS,华佗路科苑路,華佗路科苑路,華佗路科苑路,Huatuo Road Keyuan Road,huatuolukeyuanlu,htlkyl,31.193356,121.590634,2704,2238,null,null,null
+SHMS297,SH,MS,蔡伦路金科路,蔡倫路金科路,蔡倫路金科路,Cailun Road Jinke Road,cailunlujinkelu,clljkl,31.192213,121.599957,2705,2286,null,null,null
+SHMS298,SH,MS,蔡伦路哈雷路,蔡倫路哈雷路,蔡倫路ハレー路,Cailun Road Halei Road,cailunluhaleilu,gbnlhll,31.19331,121.606049,2755,2316,null,null,null
+SHMS299,SH,MS,哥白尼路李冰路,哥白尼路李冰路,コペルニクス路李氷路,Gebaini Road Libing Road,gebainilunibinglu,gbnlnbl,31.196295,121.612247,2844,2302,null,null,null
+SHMS300,SH,MS,紫薇路高斯路,紫薇路高斯路,紫薇路ガウス路,Ziwei Road Gaosi Road,ziweilugaosilu,zwlgsl,31.199679,121.613199,2876,2268,null,null,null
+SHMS301,SH,MS,高斯路张江路,高斯路張江路,ガウス路張江路,Gaosi Road Zhangjiang Road,gaosiluzhangjianglu,gslzjl,31.201186,121.618923,2899,2211,null,null,null
+SHMS302,SH,MS,张江中学,張江中學,張江中学,Zhangjiang Middle School,zhangjiangzhongxue,zjzx,31.209377,121.615069,2898,2157,null,null,null
+SHMS303,SH,MS,广兰路祖冲之路,廣蘭路祖沖之路,広蘭路祖沖之路,Guanglan Road Zuchongzhi Road,guanglanluzuchongzhilu,gllzczl,31.210473,121.617579,2898,2104,null,null,null
+SHMS304,SH,MS,广兰路丹桂路,廣蘭路丹桂路,広蘭路丹桂路,Guanglan Road Dangui Road,guanglanludanguilu,glldgl,31.214793,121.617365,2898,1988,null,null,null
+SHMS305,SH,MS,丹桂路青桐路,丹桂路青桐路,丹桂路青桐路,Dangui Road Qingtong Road,danguiluqingtonglu,dglqtl,31.215559,121.622306,2919,1950,null,null,null
+SHMS306,SH,MS,丹桂路张东路,丹桂路張東路,丹桂路張東路,Dangui Road Zhangdong Road,danguiluzhangdonglu,dglzdl,31.221133,121.631811,2977,1950,null,null,null
+SHMS307,SH,MS,张东路金秋路,張東路金秋路,張東路金秋路,Zhangdong Road Jinqiu Road,zhangdonglujinqiulu,zdljql,31.216566,121.632769,2995,1987,null,張東路金秋路駅,null
+SHMS308,SH,MS,七莘路,七莘路,七莘路,Qixin Road,qixinlu,qxl,0,0,0,0,null,null,null
+SHMS309,SH,MS,虹莘路,虹莘路,虹莘路,Hongxin Road,hongxinlu,hxl,0,0,0,0,null,null,null
+SHMS310,SH,MS,顾戴路,顧戴路,顧戴路,Gudai Road,gudailu,gdl,0,0,0,0,null,null,null
+SHMS311,SH,MS,东兰路,東蘭路,東蘭路,Donglan Road,donglanlu,dll,0,0,0,0,null,null,null
+SHMS312,SH,MS,虹梅路,虹梅路,虹梅路,Hongmei Road,hongmeilu,hml,0,0,0,0,null,null,null
+SHMS313,SH,MS,虹漕路,虹漕路,虹漕路,Hongcao Road,hongcaolu,hcl,0,0,0,0,null,null,null
+SHMS314,SH,MS,桂林公园,桂林公園,桂林公園,Guilin Park,guilingongyuan,glgy,0,0,0,0,null,null,null
+SHMS315,SH,MS,大渡河路,大渡河路,大渡河路,Daduhe Road,daduhelu,ddhl,0,0,0,0,null,null,null
+SHMS316,SH,MS,武宁路,武寧路,武寧路,Wuning Road,wuninglu,wnl,0,0,0,0,null,null,null
+SHMS317,SH,MS,江宁路,江寧路,江寧路,Jiangning Road,jiangninglu,jnl,0,0,0,0,null,null,null
+SHMS318,SH,MS,山海关路,山海關路,山海関路,Shanhaiguan Road,shanhaiguanlu,shgl,0,0,0,0,null,null,null
+SHMS319,SH,MS,淮海中路,淮海中路,淮海中路,Middle Huaihai Road,huaihaizhonglu,hhzl,0,0,0,0,null,null,null
+SHMS320,SH,MS,卢浦大桥,盧浦大橋,盧浦大橋,Lupu Bridge,lupudaqiao,lpdq,0,0,0,0,null,null,null
+SHMS321,SH,MS,世博大道,世博大道,世博大道,Shibo Avenue,shibodadao,sbdd,0,0,0,0,null,null,null
+SHMS322,SH,MS,六里,六里,六里,Liuli,liuli,ll,0,0,0,0,null,null,null
+SHMS323,SH,MS,下南路,下南路,下南路,Xia'nan Road,xiananlu,xnl,0,0,0,0,null,null,null
+SHMS324,SH,MS,北蔡,北蔡,北蔡,Beicai,beicai,bc,0,0,0,0,null,null,null
+SHMS325,SH,MS,绿川新村,綠川新村,緑川新村,Luchuan Xincun,lvchuanxincun,lcxc,0,0,0,0,null,null,null
+SHMS326,SH,MS,莲溪路,蓮溪路,蓮渓路,Lianxi Road,lianxilu,lxl,0,0,0,0,null,null,null
+SHMS327,SH,MS,华夏中路,華夏中路,華夏中路,Middle Huaxia Road,huaxiazhonglu,hxzl,0,0,0,0,null,null,null
+SHMS328,SH,MS,中科路,中科路,中科路,Zhongke Road,zhongkelu,zkl,0,0,0,0,null,null,null
+SHMS329,SH,MS,哥白尼路,哥白尼路,哥白尼路,Gebaini Road,gebainilu,gbnl,0,0,0,0,null,null,null
+SHMS330,SH,MS,张江路,張江路,張江路,Zhangjiang Road,zhangjianglu,zjl,0,0,0,0,null,null,null
+SHMS331,SH,MS,祁华路,祁華路,祁華路,Qihua Road,qihualu,qhl,31.320922,121.376542,1135,537,祁華路站,祁華路駅,Qihua_Road_Station

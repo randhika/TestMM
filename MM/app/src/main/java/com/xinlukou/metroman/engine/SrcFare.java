@@ -1,30 +1,29 @@
 package com.xinlukou.metroman.engine;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class SrcFare {
-    public String FareType;
-    public String WayUNOList;
-    public String CommonFare;
-    public String FileFare;
-    public String StationUNOList;
-    public List<String> WayList;
-    public List<String> UNOList;
-    public String FileFareContent;
-    public List<String> FareList;
+    public String fareType;
+    public String wayUNOList;
+    public String commonFare;
+    public String fileFare;
+    public String stationUNOList;
+    public List<String> wayList;
+    public List<String> unoList;
+    public String fileFareContent;
+    public List<String> fareList;
 
     public SrcFare (String str) {
         String[] array = str.split(",");
-        this.FareType = array[0];
-        this.WayUNOList = array[1];
-        this.CommonFare = array[2];
-        this.FileFare = array[3];
-        this.StationUNOList = array[4];
-        this.WayList = Arrays.asList(this.WayUNOList.split("|"));
-        this.UNOList = Arrays.asList(this.StationUNOList.split("|"));
-        if(!this.FileFare.isEmpty()) {
+        this.fareType = array[0];
+        this.wayUNOList = array[1];
+        this.commonFare = array[2];
+        this.fileFare = array[3];
+        this.stationUNOList = array[4];
+        this.wayList = Arrays.asList(this.wayUNOList.split("|"));
+        this.unoList = Arrays.asList(this.stationUNOList.split("|"));
+        if(!this.fileFare.isEmpty()) {
             //TODO
         }
     }

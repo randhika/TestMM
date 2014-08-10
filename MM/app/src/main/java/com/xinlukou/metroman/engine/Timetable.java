@@ -1,16 +1,16 @@
 package com.xinlukou.metroman.engine;
 
 public class Timetable {
-    public Integer ID;
-    public Integer LinkID;
-    public Integer DepTime;
-    public Integer ArrTime;
+    public Integer id;
+    public Integer linkID;
+    public Integer depTime;
+    public Integer arrTime;
 
     public Timetable (Integer theID, String str) {
         String[] array = str.split(",");
-        this.ID = theID;
-        this.LinkID = Integer.getInteger(array[0]);
-        this.DepTime = Integer.getInteger(array[1]);
-        this.ArrTime = Integer.getInteger(array[2]);
+        this.id = theID;
+        this.linkID = Integer.getInteger(array[0]);
+        this.depTime = Integer.getInteger(array[1]);
+        this.arrTime = Integer.getInteger(array[2]);
     }
 }

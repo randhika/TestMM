@@ -1,36 +1,36 @@
 package com.xinlukou.metroman.engine;
 
 public class Link {
-    public Integer ID;
-    public Integer WayID;
-    public Integer FromStationID;
-    public Integer ToStationID;
-    public Integer AverageTime;
-    public Integer Distance;
-    public Integer StartTransferFromID;
-    public Integer EndTransferFromID;
-    public Integer StartTransferToID;
-    public Integer EndTransferToID;
-    public Integer StartWeekdayID;
-    public Integer EndWeekdayID;
-    public Integer StartWeekendID;
-    public Integer EmdWeekendID;
+    public Integer id;
+    public Integer wayID;
+    public Integer fromStationID;
+    public Integer toStationID;
+    public Integer averageTime;
+    public Integer distance;
+    public Integer startTransferFromID;
+    public Integer endTransferFromID;
+    public Integer startTransferToID;
+    public Integer endTransferToID;
+    public Integer startWeekdayID;
+    public Integer endWeekdayID;
+    public Integer startWeekendID;
+    public Integer endWeekendID;
 
     public Link (Integer theID, String str) {
         String[] array = str.split(",");
-        this.ID = theID;
-        this.WayID = Integer.getInteger(array[0]);
-        this.FromStationID = Integer.getInteger(array[1]);
-        this.ToStationID = Integer.getInteger(array[2]);
-        this.AverageTime = Integer.getInteger(array[3]);
-        this.Distance = Integer.getInteger(array[4]);
-        this.StartTransferFromID = Integer.getInteger(array[5]);
-        this.EndTransferFromID = Integer.getInteger(array[6]);
-        this.StartTransferToID = Integer.getInteger(array[7]);
-        this.EndTransferToID = Integer.getInteger(array[8]);
-        this.StartWeekdayID = Integer.getInteger(array[9]);
-        this.EndWeekdayID = Integer.getInteger(array[10]);
-        this.StartWeekendID = Integer.getInteger(array[11]);
-        this.EmdWeekendID = Integer.getInteger(array[12]);
+        this.id = theID;
+        this.wayID = Integer.getInteger(array[0]);
+        this.fromStationID = Integer.getInteger(array[1]);
+        this.toStationID = Integer.getInteger(array[2]);
+        this.averageTime = Integer.getInteger(array[3]);
+        this.distance = Integer.getInteger(array[4]);
+        this.startTransferFromID = Integer.getInteger(array[5]);
+        this.endTransferFromID = Integer.getInteger(array[6]);
+        this.startTransferToID = Integer.getInteger(array[7]);
+        this.endTransferToID = Integer.getInteger(array[8]);
+        this.startWeekdayID = Integer.getInteger(array[9]);
+        this.endWeekdayID = Integer.getInteger(array[10]);
+        this.startWeekendID = Integer.getInteger(array[11]);
+        this.endWeekendID = Integer.getInteger(array[12]);
     }
 }

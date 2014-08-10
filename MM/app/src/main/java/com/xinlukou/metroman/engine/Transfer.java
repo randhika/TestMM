@@ -1,20 +1,20 @@
 package com.xinlukou.metroman.engine;
 
 public class Transfer {
-    public Integer ID;
-    public Integer FromLinkID;
-    public Integer ToLinkID;
-    public Integer TransTime;
-    public Integer TransDistance;
-    public Integer TransType;
+    public Integer id;
+    public Integer fromLinkID;
+    public Integer toLinkID;
+    public Integer transTime;
+    public Integer transDistance;
+    public Integer transType;
 
     public Transfer (Integer theID, String str) {
         String[] array = str.split(",");
-        this.ID = theID;
-        this.FromLinkID = Integer.getInteger(array[0]);
-        this.ToLinkID = Integer.getInteger(array[1]);
-        this.TransTime = Integer.getInteger(array[2]);
-        this.TransDistance = Integer.getInteger(array[3]);
-        this.TransType = Integer.getInteger(array[4]);
+        this.id = theID;
+        this.fromLinkID = Integer.getInteger(array[0]);
+        this.toLinkID = Integer.getInteger(array[1]);
+        this.transTime = Integer.getInteger(array[2]);
+        this.transDistance = Integer.getInteger(array[3]);
+        this.transType = Integer.getInteger(array[4]);
     }
 }

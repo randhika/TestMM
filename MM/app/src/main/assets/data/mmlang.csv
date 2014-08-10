@@ -1,0 +1,115 @@
+Search<,>换乘查询<,>換乘搜尋<,>経路検索<,>Search
+RouteMap<,>线路图<,>路綫圖<,>路線図<,>Route Map
+Game<,>游戏<,>遊戲<,>ゲーム<,>Game
+Station<,>车站<,>車站<,>駅情報<,>Station
+Nearby<,>周边<,>周邊<,>周辺<,>Nearby
+Map<,>地图<,>地圖<,>地図<,>Map
+Photo<,>附近照片<,>附近照片<,>周辺写真<,>Photo
+Wiki<,>车站百科<,>車站百科<,>駅の百科<,>Wikipedia
+Setting<,>设置<,>設定<,>設定<,>Setting
+Back<,>返回<,>返回<,>戻る<,>Back
+Done<,>完成<,>完成<,>完了<,>Done
+Cancel<,>取消<,>取消<,>キャンセル<,>Cancel
+From<,>起点<,>起點<,>出発<,>From
+To<,>终点<,>終點<,>到着<,>To
+Time<,>时刻<,>時刻<,>日時<,>Time
+Timetable<,>时刻表<,>時刻表<,>時刻表<,>Timetable
+Weekdays<,>工作日<,>工作日<,>平日<,>Weekdays
+Holidays<,>节假日<,>節假日<,>土曜休日<,>Holidays
+Share<,>分享<,>分享<,>シェア<,>Share
+Message<,>短信<,>簡訊<,>メッセージ<,>Message
+Mail<,>邮件<,>郵件<,>メールで送信<,>Mail
+MetroManApp<,>MetroMan!中国地铁通<,>MetroMan!中華地鐵通<,>MetroMan!中国メトロ<,>MetroMan China
+MultiLang<,>简体中文<,>繁體中文<,>日本語<,>English
+More<,>更多<,>更多<,>その他<,>More
+MyLocation<,>现在位置<,>現在位置<,>現在地<,>My Location
+GameM2<,>2048<,>2048<,>2048<,>2048
+GameMB<,>Flappy Bird<,>Flappy Bird<,>Flappy Bird<,>Flappy Bird
+Play<,>开始<,>開始<,>スタート<,>Play
+SearchOptionTime<,>早到达优先<,>早到達優先<,>到着が早い順<,>Best route
+SearchOptionTransfer<,>少换乘优先<,>少換乘優先<,>乗換回数順<,>Fewer transfers
+SearchTypeDep<,>出发<,>出發<,>出発<,>Departure
+SearchTypeArr<,>到达<,>到達<,>到着<,>Arrival
+SearchTypeFirst<,>首班车<,>首班車<,>始発<,>First Train
+SearchTypeLast<,>末班车<,>尾班車<,>終電<,>Last Train
+SearchTypeNow<,>现在时刻<,>現在時刻<,>現在時刻<,>Now
+SearchButton<,>查询<,>搜尋<,>検索<,>Search
+Result<,>查询结果<,>搜尋結果<,>検索結果<,>Result
+ResultCost<,>票价:%@元 换乘:%@次 距离:%4.1f公里<,>票價:%@元 換乘:%@次 距離:%4.1f公里<,>運賃:%@元 乗換:%@回 距離:%4.1fkm<,>Fare:%@  Transfer:%@  %4.1fkm
+Route<,>路线%@<,>路綫%@<,>経路%@<,>Route %@
+RouteCost<,>票价%@元 换乘%@次 距离%4.1f公里<,>票價%@元 換乘%@次 距離%4.1f公里<,>運賃%@元 乗換%@回 距離%4.1fkm<,>Fare:%@  Transfer:%@  %4.1fkm
+RouteDistance<,>距离:%4.1f公里<,>距離:%4.1f公里<,>距離:%4.1fkm<,>Distance:%4.1fkm
+RouteDep<,>%@发<,>%@發<,>%@発<,>%@S
+RouteArr<,>%@到<,>%@到<,>%@着<,>%@E
+RouteStop<,>%ld站<,>%ld站<,>%ld駅<,>%ld
+RouteFare<,>%@元<,>%@元<,>%@元<,>%@ rmb
+StationTypeHistory<,>查询历史<,>搜尋歷史<,>検索履歴<,>History
+StationTypeList<,>全部车站<,>全部車站<,>駅一覧<,>List
+StationTypeNearby<,>附近车站<,>附近車站<,>最寄駅<,>Nearby
+StationSearchBar<,>站名(汉字或拼音首字母)<,>站名(中文或英文)<,>駅名(日本語 or 英語)<,>Enter a station name
+MapTypeNormal<,>地图<,>地圖<,>地図<,>Map
+MapTypeSatellite<,>卫星<,>衛星<,>写真<,>Satellite
+MapTypeHybrid<,>混合<,>混合<,>混合<,>Hybrid
+MapTypeTerrain<,>地形<,>地形<,>地形<,>Terrain
+SettingCity<,>选择城市<,>選擇城市<,>都市選択<,>Select City
+SettingLang<,>选择语言<,>選擇語言<,>言語選択<,>Select Language
+SettingWeb<,>MetroMan<,>MetroMan<,>MetroMan<,>MetroMan
+SettingFeedback<,>反馈建议<,>反饋建議<,>お問い合わせ<,>Feedback
+SettingWeibo<,>新浪微博<,>Facebook<,>Facebook<,>Facebook
+SettingReview<,>给App评分<,>給App評分<,>AppStoreレビュー<,>Review
+SettingMore<,>更多App<,>更多App<,>推奨アプリ<,>More Apps
+SettingTaobao<,>领导的淘宝店<,>我的淘寶店<,>僕のストア<,>My Store
+SettingWelcome<,>欢迎光临<,>歡迎光臨<,>ようこそ<,>Welcome
+NearbyCafe<,>咖啡馆<,>咖啡館<,>喫茶店<,>Cafe
+NearbyCinema<,>电影院<,>電影院<,>映画館<,>Cinema
+NearbyRestaurant<,>餐厅<,>餐廳<,>グルメ<,>Restaurant
+NearbyHotel<,>酒店<,>酒店<,>ホテル<,>Hotel
+NearbyATM<,>ATM<,>ATM<,>ATM<,>ATM
+NearbyBank<,>银行<,>銀行<,>銀行<,>Bank
+NearbyShopping<,>购物中心<,>百貨商店<,>デパート<,>Shopping
+NearbyBar<,>酒吧<,>酒吧<,>バー<,>Bar
+NearbyBeauty<,>美容美发<,>美容美髮<,>美容室<,>Beauty Salon
+NearbyGym<,>健身<,>健身<,>フィットネス<,>Fitness
+NearbyPark<,>公园<,>公園<,>公園<,>Park
+NearbyBook<,>书店<,>書店<,>書店<,>Book Store
+NearbyHospital<,>医院<,>醫院<,>病院<,>Hospital
+NearbyPharmacy<,>药店<,>藥房<,>薬局<,>Pharmacy
+NearbyMore<,>更多...<,>更多...<,>More...<,>More...
+DateYMDHM<,>yyyyMMddHHmm<,>yyyyMMddHHmm<,>yyyyMMddHHmm<,>yyyyMMddHHmm
+DateYMD<,>yyyy年M月d日<,>yyyy年M月d日<,>yyyy年M月d日<,>yyyy/M/d
+DateMD<,>M月d日<,>M月d日<,>M月d日<,>M/d
+DateHM<,>H:mm<,>H:mm<,>H:mm<,>H:mm
+TimeHM<,>(%ld小时%ld分)<,>(%ld小時%ld分)<,>(%ld時間%ld分)<,>(%ldH%ldM)
+TimeH<,>(%ld小时)<,>(%ld小時)<,>(%ld時間)<,>(%ld hours)
+TimeM<,>(%ld分钟)<,>(%ld分鐘)<,>(%ld分)<,>(%ld mins)
+DistanceM<,>%ld米<,>%ld米<,>%ldm<,>%ldm
+DistanceKM<,>%4.1f公里<,>%4.1f公里<,>%4.1fkm<,>%4.1fkm
+WikiURL<,>http://zh.m.wikipedia.org/zh-hans/<,>http://zh.m.wikipedia.org/zh-hant/<,>http://ja.m.wikipedia.org/wiki/<,>http://en.m.wikipedia.org/wiki/
+MsgError<,>错误<,>錯誤<,>エラー<,>Error
+MsgFailure<,>失败<,>失敗<,>失敗<,>Failure
+MsgNoneDep<,>起点站不存在。<,>起點站不存在。<,>出発駅が存在しません。<,>Can't find departure station!
+MsgNoneArr<,>终点站不存在。<,>終點站不存在。<,>目的駅が存在しません。<,>Can't find arrival station!
+MsgSameStation<,>请选择不同的起点站和终点站。<,>請選擇不同的起點站和終點站。<,>出発駅と目的駅が同じです。<,>From and To can't be same station!
+MsgLocateNG<,>需要设置允许APP使用定位服务。<,>需要設置允許APP使用定位服務。<,>位置情報サービスをオンに設定してください。<,>you must allow the localization to access this option!
+MsgLocateFailure<,>定位失败<,>定位失敗<,>現在地取得に失敗<,>Failure to locate
+MsgLocateNone<,>附近2公里没有车站。<,>附近2公里沒有車站<,>現在地から半径2kmの範囲に駅がありません。<,>No Station found within 2km!
+MsgNetworkInfo<,>网络连接不可用。<,>網絡連接不可用。<,>インターネット接続に失敗しました。<,>No internet connection!
+MsgNearbyFailure<,>周边搜索失败。<,>周邊搜尋失敗。<,>周辺検索に失敗しました。<,>Failure to search nearby!
+MsgFailSMS<,>短信发送失败。<,>簡訊發送失敗。<,>メッセージ送信に失敗しました。<,>Failed to send SMS!
+MsgNotSupportSMS<,>当前设备不支持短信。<,>當前設備不支持簡訊。<,>デバイスはメッセージ送信不可です。<,>Your device doesn't support SMS!
+AppCN<,>中国<,>中國<,>中国<,>China
+AppBJ<,>北京<,>北京<,>北京<,>Beijing
+AppSH<,>上海<,>上海<,>上海<,>Shanghai
+AppGZ<,>广州<,>廣州<,>広州<,>Guangzhou
+AppSZ<,>深圳<,>深圳<,>深セン<,>Shenzhen
+AppHK<,>香港<,>香港<,>香港<,>Hong Kong
+AppNJ<,>南京<,>南京<,>南京<,>Nanjing
+AppTB<,>台北<,>臺北<,>台北<,>Taipei
+AppTJ<,>天津<,>天津<,>天津<,>Tianjin
+AppWH<,>武汉<,>武漢<,>武漢<,>Wuhan
+AppCD<,>成都<,>成都<,>成都<,>Chengdu
+AppCQ<,>重庆<,>重慶<,>重慶<,>Chongqing
+AppSY<,>沈阳<,>瀋陽<,>瀋陽<,>Shenyang
+AppHZ<,>杭州<,>杭州<,>杭州<,>Hangzhou
+AppSU<,>苏州<,>蘇州<,>蘇州<,>Suzhou
+AppXA<,>西安<,>西安<,>西安<,>Xi'an
