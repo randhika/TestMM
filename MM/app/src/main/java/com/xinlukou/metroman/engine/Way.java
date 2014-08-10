@@ -11,14 +11,14 @@ public class Way {
     public List<Integer> stationIDList;
 
     public Way (Integer theID, String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.id = theID;
         this.uno = array[0];
-        this.lineID = Integer.getInteger(array[1]);
-        this.waitTime = Integer.getInteger(array[2]);
+        this.lineID = Integer.parseInt(array[1]);
+        this.waitTime = Integer.parseInt(array[2]);
         this.stationIDList = new ArrayList<Integer>(array.length - 3);
         for (int i = 3; i < array.length; i++) {
-            this.stationIDList.add(Integer.getInteger(array[i]));
+            this.stationIDList.add(Integer.parseInt(array[i]));
         }
     }
 }

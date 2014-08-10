@@ -9,12 +9,12 @@ public class Line {
     public List<Integer> stationIDList;
 
     public Line (Integer theID, String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.id = theID;
         this.uno = array[0];
         this.stationIDList = new ArrayList<Integer>(array.length - 1);
         for (int i = 1; i < array.length; i++) {
-            this.stationIDList.add(Integer.getInteger(array[i]));
+            this.stationIDList.add(Integer.parseInt(array[i]));
         }
     }
 }

@@ -15,7 +15,7 @@ public class SrcFare {
     public List<String> fareList;
 
     public SrcFare (String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.fareType = array[0];
         this.wayUNOList = array[1];
         this.commonFare = array[2];

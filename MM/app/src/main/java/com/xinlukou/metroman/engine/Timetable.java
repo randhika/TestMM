@@ -7,10 +7,10 @@ public class Timetable {
     public Integer arrTime;
 
     public Timetable (Integer theID, String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.id = theID;
-        this.linkID = Integer.getInteger(array[0]);
-        this.depTime = Integer.getInteger(array[1]);
-        this.arrTime = Integer.getInteger(array[2]);
+        this.linkID = Integer.parseInt(array[0]);
+        this.depTime = Integer.parseInt(array[1]);
+        this.arrTime = Integer.parseInt(array[2]);
     }
 }

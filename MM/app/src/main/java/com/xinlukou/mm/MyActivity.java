@@ -10,7 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.xinlukou.metroman.common.Helper;
 import com.xinlukou.metroman.engine.*;
+import com.xinlukou.metroman.metroman.Global;
 
 import org.apache.http.util.EncodingUtils;
 
@@ -28,29 +30,19 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
 
-        try {
+        Helper.assetManager = this.getAssets();
 
-            InputStream is = getAssets().open("data/mmlang.csv");
-            byte[] bytes = new byte[is.available()];
-            is.read(bytes);
-            String str = EncodingUtils.getString(bytes, "utf-8");
-            System.out.println(str);
-        } catch (Exception ex) {
-            System.out.println(ex.getMessage());
-        }
+        textView = (TextView)findViewById(R.id.textView);
+        testButton = (Button)findViewById(R.id.testButton);
+        testButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Global.reloadData(true);
+                textView.setText(DataManage.unoList.get(0).english);
+            }
+        });
 
-        //StringReader sr = new StringReader()
 
-//        textView = (TextView)findViewById(R.id.textView);
-//        testButton = (Button)findViewById(R.id.testButton);
-//        testButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                DataManage.initData();
-//                textView.setText(DataManage.unoList.get(0).English);
-//            }
-//        });
     }
 
 

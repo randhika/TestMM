@@ -7,10 +7,10 @@ public class Station {
     public Integer multiWay;
 
     public Station (Integer theID, String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.id = theID;
         this.uno = array[0];
-        this.multiLine = Integer.getInteger(array[1]);
-        this.multiWay = Integer.getInteger(array[2]);
+        this.multiLine = Integer.parseInt(array[1]);
+        this.multiWay = Integer.parseInt(array[2]);
     }
 }

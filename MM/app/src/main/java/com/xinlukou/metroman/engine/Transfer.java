@@ -9,12 +9,12 @@ public class Transfer {
     public Integer transType;
 
     public Transfer (Integer theID, String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.id = theID;
-        this.fromLinkID = Integer.getInteger(array[0]);
-        this.toLinkID = Integer.getInteger(array[1]);
-        this.transTime = Integer.getInteger(array[2]);
-        this.transDistance = Integer.getInteger(array[3]);
-        this.transType = Integer.getInteger(array[4]);
+        this.fromLinkID = Integer.parseInt(array[0]);
+        this.toLinkID = Integer.parseInt(array[1]);
+        this.transTime = Integer.parseInt(array[2]);
+        this.transDistance = Integer.parseInt(array[3]);
+        this.transType = Integer.parseInt(array[4]);
     }
 }

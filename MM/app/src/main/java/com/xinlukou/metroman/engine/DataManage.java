@@ -4,13 +4,15 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.content.res.AssetManager;
 import android.text.TextUtils;
+
+import com.xinlukou.metroman.common.Helper;
+import com.xinlukou.metroman.metroman.City;
 
 import org.apache.http.util.EncodingUtils;
 
 public class DataManage {
-    public static AssetManager assetManager = null;
+    public static City city = null;
     public static List<SrcConfig> configList = null;
     public static List<String> holidayList = null;
     public static List<SrcUNO> unoList = null;
@@ -24,7 +26,8 @@ public class DataManage {
     public static List<Timetable> weekdayList = null;
     public static List<Timetable> weekendList = null;
 
-    public static void initData() {
+    public static void initData(City city) {
+        DataManage.city = city;
         loadConfig();
         loadHoliday();
         loadUNO();
@@ -55,28 +58,14 @@ public class DataManage {
         configList = null;
     }
 
-    private static String getPathByCity(String fileName) {
-        //TODO
-        return String.format("data/%s/%s.csv", "sh", fileName);
-    }
-
-    private static String[] getCsvFileContents(String fileName) {
-        String[] rowArray = null;
-        try {
-            String path = getPathByCity(fileName);
-            InputStream is = assetManager.open(path);
-            byte[] bytes = new byte[is.available()];
-            is.read(bytes);
-            String content = EncodingUtils.getString(bytes, "utf-8");
-            rowArray = content.split("\r\n");
-        } catch (Exception ex) {
-        }
-        return rowArray;
+    private static String[] getCsv(String fileName) {
+        String path = String.format("data/%s/%s.csv", city.cityKey, fileName);
+        return Helper.getCsv(path);
     }
 
     private static void loadConfig() {
         if(configList != null && configList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("config");
+        String[] rowArray = getCsv("config");
         configList = new ArrayList<SrcConfig>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
@@ -86,7 +75,7 @@ public class DataManage {
 
     private static void loadHoliday() {
         if(holidayList != null && holidayList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("holiday");
+        String[] rowArray = getCsv("holiday");
         holidayList = new ArrayList<String>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
@@ -96,7 +85,7 @@ public class DataManage {
 
     private static void loadUNO() {
         if(unoList != null && unoList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("uno");
+        String[] rowArray = getCsv("uno");
         unoList = new ArrayList<SrcUNO>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
@@ -106,7 +95,7 @@ public class DataManage {
 
     private static void loadFare() {
         if(fareList != null && fareList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("fare");
+        String[] rowArray = getCsv("fare");
         fareList = new ArrayList<SrcFare>(rowArray.length);
         for (String str : rowArray) {
             if(TextUtils.isEmpty(str)) continue;
@@ -116,7 +105,7 @@ public class DataManage {
 
     private static void loadStation() {
         if(stationList != null && stationList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("station");
+        String[] rowArray = getCsv("station");
         Integer curIndex = 0;
         stationList = new ArrayList<Station>(rowArray.length);
         for (String str : rowArray) {
@@ -128,7 +117,7 @@ public class DataManage {
 
     private static void loadLine() {
         if(lineList != null && lineList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("line");
+        String[] rowArray = getCsv("line");
         Integer curIndex = 0;
         lineList = new ArrayList<Line>(rowArray.length);
         for (String str : rowArray) {
@@ -140,7 +129,7 @@ public class DataManage {
 
     private static void loadWay() {
         if(wayList != null && wayList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("way");
+        String[] rowArray = getCsv("way");
         Integer curIndex = 0;
         wayList = new ArrayList<Way>(rowArray.length);
         for (String str : rowArray) {
@@ -152,7 +141,7 @@ public class DataManage {
 
     private static void loadLink() {
         if(linkList != null && linkList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("link");
+        String[] rowArray = getCsv("link");
         Integer curIndex = 0;
         linkList = new ArrayList<Link>(rowArray.length);
         for (String str : rowArray) {
@@ -164,7 +153,7 @@ public class DataManage {
 
     private static void loadTransferFrom() {
         if(transferFromList != null && transferFromList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("transferfrom");
+        String[] rowArray = getCsv("transferfrom");
         Integer curIndex = 0;
         transferFromList = new ArrayList<Transfer>(rowArray.length);
         for (String str : rowArray) {
@@ -176,7 +165,7 @@ public class DataManage {
 
     private static void loadTransferTo() {
         if(transferToList != null && transferToList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("transferto");
+        String[] rowArray = getCsv("transferto");
         Integer curIndex = 0;
         transferToList = new ArrayList<Transfer>(rowArray.length);
         for (String str : rowArray) {
@@ -188,7 +177,7 @@ public class DataManage {
 
     private static void loadWeekday() {
         if(weekdayList != null && weekdayList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("weekday");
+        String[] rowArray = getCsv("weekday");
         Integer curIndex = 0;
         weekdayList = new ArrayList<Timetable>(rowArray.length);
         for (String str : rowArray) {
@@ -200,7 +189,7 @@ public class DataManage {
 
     private static void loadWeekend() {
         if(weekendList != null && weekendList.size() > 0) return;
-        String[] rowArray = getCsvFileContents("weekend");
+        String[] rowArray = getCsv("weekend");
         Integer curIndex = 0;
         weekendList = new ArrayList<Timetable>(rowArray.length);
         for (String str : rowArray) {

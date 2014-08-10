@@ -12,15 +12,15 @@ public class City {
     public double longitude;
 
     public City (String str) {
-        String[] array = str.split(",");
-        this.cityID = Integer.getInteger(array[0]);
+        String[] array = str.split(",", -1);
+        this.cityID = Integer.parseInt(array[0]);
         this.cityKey = array[1];
-        this.linkCount = Integer.getInteger(array[2]);
-        this.transferCount = Integer.getInteger(array[3]);
-        this.weekdayCount = Integer.getInteger(array[4]);
-        this.weekendCount = Integer.getInteger(array[5]);
+        this.linkCount = Integer.parseInt(array[2]);
+        this.transferCount = Integer.parseInt(array[3]);
+        this.weekdayCount = Integer.parseInt(array[4]);
+        this.weekendCount = Integer.parseInt(array[5]);
         this.appID = array[6];
-        this.latitude = Integer.getInteger(array[7]);
-        this.longitude = Integer.getInteger(array[8]);
+        this.latitude = Double.parseDouble(array[7]);
+        this.longitude = Double.parseDouble(array[8]);
     }
 }

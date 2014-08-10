@@ -17,20 +17,20 @@ public class Link {
     public Integer endWeekendID;
 
     public Link (Integer theID, String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.id = theID;
-        this.wayID = Integer.getInteger(array[0]);
-        this.fromStationID = Integer.getInteger(array[1]);
-        this.toStationID = Integer.getInteger(array[2]);
-        this.averageTime = Integer.getInteger(array[3]);
-        this.distance = Integer.getInteger(array[4]);
-        this.startTransferFromID = Integer.getInteger(array[5]);
-        this.endTransferFromID = Integer.getInteger(array[6]);
-        this.startTransferToID = Integer.getInteger(array[7]);
-        this.endTransferToID = Integer.getInteger(array[8]);
-        this.startWeekdayID = Integer.getInteger(array[9]);
-        this.endWeekdayID = Integer.getInteger(array[10]);
-        this.startWeekendID = Integer.getInteger(array[11]);
-        this.endWeekendID = Integer.getInteger(array[12]);
+        this.wayID = Integer.parseInt(array[0]);
+        this.fromStationID = Integer.parseInt(array[1]);
+        this.toStationID = Integer.parseInt(array[2]);
+        this.averageTime = Integer.parseInt(array[3]);
+        this.distance = Integer.parseInt(array[4]);
+        this.startTransferFromID = Integer.parseInt(array[5]);
+        this.endTransferFromID = Integer.parseInt(array[6]);
+        this.startTransferToID = Integer.parseInt(array[7]);
+        this.endTransferToID = Integer.parseInt(array[8]);
+        this.startWeekdayID = Integer.parseInt(array[9]);
+        this.endWeekdayID = Integer.parseInt(array[10]);
+        this.startWeekendID = Integer.parseInt(array[11]);
+        this.endWeekendID = Integer.parseInt(array[12]);
     }
 }

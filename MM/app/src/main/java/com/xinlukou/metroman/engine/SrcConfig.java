@@ -12,15 +12,15 @@ public class SrcConfig {
     public Integer dtType;
 
     public SrcConfig (String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.versionNO = array[0];
-        this.searchResultType = Integer.getInteger(array[1]);
-        this.searchResultFormat = Integer.getInteger(array[2]);
-        this.requestTerminal = Integer.getInteger(array[3]);
-        this.resultRouteCount = Integer.getInteger(array[4]);
-        this.searchType = Integer.getInteger(array[5]);
+        this.searchResultType = Integer.parseInt(array[1]);
+        this.searchResultFormat = Integer.parseInt(array[2]);
+        this.requestTerminal = Integer.parseInt(array[3]);
+        this.resultRouteCount = Integer.parseInt(array[4]);
+        this.searchType = Integer.parseInt(array[5]);
         this.dataID = array[6];
-        this.supportFlag = Integer.getInteger(array[7]);
-        this.dtType = Integer.getInteger(array[8]);
+        this.supportFlag = Integer.parseInt(array[7]);
+        this.dtType = Integer.parseInt(array[8]);
     }
 }

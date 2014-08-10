@@ -19,7 +19,7 @@ public class SrcUNO {
     public String wikiEN;
 
     public SrcUNO (String str) {
-        String[] array = str.split(",");
+        String[] array = str.split(",", -1);
         this.uno = array[0];
         this.range = array[1];
         this.type = array[2];
