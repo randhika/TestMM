@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="73" android:versionName="3.7" android:installLocation="auto" package="jp.co.yahoo.android.apps.transit"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="jp.co.yahoo.android.apps.transit.permission.LOGIN" android:protectionLevel="signature" />
+    <permission android:name="jp.co.yahoo.android.apps.transit.permission.LOGIN" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="jp.co.yahoo.android.apps.transit.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="jp.co.yahoo.android.apps.transit.permission.C2D_MESSAGE" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true" />
+    <application android:theme="@style/YTransit" android:label="@string/app_name_short" android:icon="@drawable/icon" android:name="jp.co.yahoo.android.common.YApplicationBase">
+        <meta-data android:name="com.google.android.wearable.beta.app" android:resource="@xml/wearable_app_desc" />
+        <activity android:label="@string/app_name_short" android:name="jp.co.yahoo.android.apps.transit.Transit" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ytransit" android:host="conditions" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ytransit" android:host="conditions" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="kakao88752607109543121" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.HomeDetailConditionActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.HomeWalkConditionActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.HomeDatetimeConditionActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.SearchResultListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/CustomActionBar" android:name="jp.co.yahoo.android.apps.transit.SearchResultActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.SearchResultTeikiActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OtherCandidatesActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.DiainfoActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.DiainfoAllCategory" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.DiainfoAreaListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.DiainfoRailList" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.DiainfoDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ytransit" android:host="diainfo" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.StationInfoTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.StationInfoList" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.StationInfo" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ytransit" android:host="station" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.RailDirection" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="ytransit" android:host="raildirection" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.TimeTableTopActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.TimeTableActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.RailmapActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersEditStationActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersEditRailActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.InputSearch" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="ytransit" android:host="inputsearch" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.RidingPositionActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.MyPageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.MapDisplay" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.HistoryEdit" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.AlarmConfirm" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.AlarmSet" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/YTransitDialogActivity" android:label="@string/app_name_short" android:name="jp.co.yahoo.android.apps.transit.AlarmDialog" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yj-3le3x" />
+                <data android:host="others" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersAddressActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersAdressSearchActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OhtersAddressListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthresAboutActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthresCopyrightActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersPushDiainfoActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.OthersPushNoticeActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/YTransitDialogActivity" android:label="@string/app_name_short" android:name="jp.co.yahoo.android.apps.transit.PushDiainfoDialog" android:taskAffinity="jp.co.yahoo.android.apps.transit.PushDiainfoDialog" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.widget.WidgetSearchActivity" android:exported="true" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <receiver android:name="jp.co.yahoo.android.apps.transit.AlarmReceiver" android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="jp.co.yahoo.yconnect.sso.ShowLoginViewActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="jp.co.yahoo.yconnect.sso.AppLoginActivity" android:permission="android.permission.INTERNET" android:exported="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yj-3le3x" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="jp.co.yahoo.yconnect.sso.AppLoginRefreshTokenActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.yconnect.sso.LoginInvisibleActivity" android:exported="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="jp.co.yahoo.yconnect.sso.LogoutInvisibleActivity" android:exported="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="jp.co.yahoo.yconnect.sso.RefreshTokenInvisibleActivity" android:exported="true" />
+        <receiver android:name="jp.co.yahoo.android.apps.transit.InstallReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/search_widget_title" android:name="jp.co.yahoo.android.apps.transit.widget.SearchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/search_widget_provider" />
+        </receiver>
+        <service android:name="jp.co.yahoo.android.apps.transit.widget.SearchWidgetService" android:exported="false">
+            <intent-filter>
+                <action android:name="HOME_BUTTON_ACTION" />
+                <action android:name="TRANSIT_BUTTON_ACTION" />
+                <action android:name="TO_BUTTON_ACTION" />
+                <action android:name="VOICE_BUTTON_ACTION" />
+            </intent-filter>
+        </service>
+        <service android:name="jp.co.yahoo.android.common.login.YLoginService" android:permission="jp.co.yahoo.android.apps.transit.permission.LOGIN" android:exported="false">
+            <meta-data android:name="jp.co.yahoo.android.common.login.YLoginServiceInfo" android:resource="@xml/yloginservice_info" />
+            <intent-filter>
+                <action android:name="jp.co.yahoo.android.common.login.IYLoginService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/CommonLoginActivityTheme" android:name="jp.co.yahoo.android.common.login.YLoginActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/CommonLogoutDialogTheme" android:name="jp.co.yahoo.android.common.login.YLogoutDialogActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" />
+        <activity android:label="@string/countdown_title_shortcut" android:icon="@drawable/icn_timer_sc" android:name="jp.co.yahoo.android.apps.transit.timer.CountdownActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="ytransit_timer" android:host="countdown" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.StationListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.RailDirectionActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingTopActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingStationActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingStartActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingStartDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingTimetableActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingDivideActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingSkinActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingAlbumListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.SettingAlbumDetailActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="jp.co.yahoo.android.apps.transit.timer.CountdownListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <service android:name="jp.co.yahoo.android.apps.transit.timer.TimetableAutoupdateService" />
+        <receiver android:name="jp.co.yahoo.android.apps.transit.timer.AlarmReceiver" android:process=":remote">
+            <intent-filter>
+                <action android:name="jp.co.yahoo.android.apps.transit.timer.STARTUP" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/countdown_widget_title" android:name="jp.co.yahoo.android.apps.transit.timer.widget.CountdownWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="jp.co.yahoo.android.apps.transit.timer.ACTION_DATA_CHANGED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/countdown_widget_provider" />
+        </receiver>
+        <service android:name="jp.co.yahoo.android.apps.transit.timer.widget.CountdownWidgetService" />
+        <receiver android:name="jp.co.yahoo.android.apps.transit.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="jp.co.yahoo.android.apps.transit" />
+            </intent-filter>
+        </receiver>
+        <service android:name="jp.co.yahoo.android.apps.transit.GcmIntentService" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <service android:name="jp.co.yahoo.android.apps.transit.PushDiainfoService" />
+        <service android:name="jp.co.yahoo.android.apps.transit.WearUpdateService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
