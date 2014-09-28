@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 　 <ScrollView android:id="@id/diainfo_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/regist_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_smallest" android:textColor="@color/gray2" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/regist_description" />
+                <include android:id="@id/via_cand_divider" layout="@layout/divider_horizontal_line" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/stationList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

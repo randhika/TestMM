@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_list_h" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_button" android:paddingLeft="@dimen/padding_small" android:paddingRight="@dimen/padding_normal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_chgroute" android:contentDescription="@string/myroute_change_route" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/padding_list_v" android:paddingBottom="@dimen/padding_list_v" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtL" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtM_gray" />
+    </LinearLayout>
+    <CheckBox android:id="@id/item_check" android:paddingLeft="@dimen/padding_checkbox" android:paddingRight="@dimen/padding_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

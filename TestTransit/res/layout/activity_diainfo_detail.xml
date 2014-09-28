@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/diainfo_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/diainfo_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/diainfo_title_area" android:background="@color/bg_gray_main_ttl" android:paddingLeft="@dimen/text_padding_small" android:paddingTop="@dimen/text_padding_nomal" android:paddingRight="@dimen/text_padding_small" android:paddingBottom="@dimen/text_padding_nomal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/SubTitleBlackText" android:textColor="@color/white" android:id="@id/diainfo_detail_railname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <Button android:id="@id/diainfo_reload" android:background="@drawable/btn_reload" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/diainfo_registbtn_area" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/diainfo_registbtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diainfo_regist_btn" style="@style/btn_big_btn01" />
+                <TextView android:paddingTop="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_small" android:text="@string/diainfo_push_description" style="@style/txtL" />
+                <Button android:id="@id/diainfo_regist_push_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diainfo_regist_push_btn" style="@style/btn_big_btn03" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_unregistbtn_area" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/diainfo_unregist_push_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diainfo_unregist_push_btn" style="@style/btn_big_btn04" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_cgm_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/diainfo_twitter"
+                  xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/diainfo_twiter_btn_area" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/cgm_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_marginRight="@dimen/padding_small" android:layout_marginBottom="@dimen/padding_small">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_normal" android:text="@string/diainfo_cgm_alert" />
+            </LinearLayout>
+            <include android:id="@id/diainfo_mail" layout="@layout/diainfo_mail_entry" />
+            <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

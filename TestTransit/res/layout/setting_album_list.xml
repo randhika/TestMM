@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/divider_horizontal_bright" android:dividerHeight="1.0dip" />
+    <TextView android:id="@id/message" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/skin_msg_album_no_data" style="@style/txtM" />
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

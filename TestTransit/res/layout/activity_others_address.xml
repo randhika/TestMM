@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/routemap_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/routemap_body" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/address_home" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icn_myhome" />
+                <TextView android:gravity="center_vertical" android:id="@id/address_home_text" android:paddingLeft="@dimen/padding_small" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_others_address_home" style="@style/txtL" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/address_work" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icn_myoffice" />
+                <TextView android:gravity="center_vertical" android:id="@id/address_work_text" android:paddingLeft="@dimen/padding_small" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_others_address_work" style="@style/txtL" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/address_other" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icn_myother" />
+                <TextView android:gravity="center_vertical" android:id="@id/address_other_text" android:paddingLeft="@dimen/padding_small" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_others_address_other" style="@style/txtL" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 　 <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

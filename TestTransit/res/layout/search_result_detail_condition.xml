@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/result_now_condition" android:background="@drawable/btn02_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/result_reserach_current_time" android:onClick="researchByCurrentTime" style="@style/btn_big_btn02" />
+    <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/result_back_condition" android:background="@drawable/btn01_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/result_list_change_condition" style="@style/btn_big_btn01" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:gravity="center" android:id="@id/num_text" android:layout_width="39.0dip" android:layout_height="wrap_content" style="@style/txtXL" />
+    <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/padding_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/station_text" android:paddingBottom="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtL" />
+        <TextView android:gravity="center_vertical" android:id="@id/line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtM" />
+    </LinearLayout>
+    <ImageView android:id="@id/checked" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_selected" android:contentDescription="@string/input_search_check" />
+</LinearLayout>

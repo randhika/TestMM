@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 　 <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/routemap_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/routemap_body" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/route_search_gps" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/ic_menu_search" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/textView1" android:paddingLeft="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_min_height" android:text="@string/search_station_gps" />
+            </LinearLayout>
+            <include android:id="@id/via_cand_divider" layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/route_search_name" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/ic_menu_search" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/textView2" android:paddingLeft="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_min_height" android:text="@string/search_station_keyword" />
+            </LinearLayout>
+            <include android:id="@id/via_cand_divider" layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/route_search_regist" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/ic_menu_search" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/textView3" android:paddingLeft="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_min_height" android:text="@string/search_station_regist" />
+            </LinearLayout>
+            <include android:id="@id/via_cand_divider" layout="@layout/divider_horizontal_line" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 　 <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

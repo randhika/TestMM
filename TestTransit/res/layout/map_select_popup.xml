@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/map_select_station" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="駅名" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/map_select_station_pin" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="出発地" />
+        <Button android:id="@id/map_select_busstop" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="目的地" />
+        <Button android:id="@id/map_select_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="経由駅" />
+        <Button android:layout_gravity="right" android:id="@id/map_select_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="解除" />
+    </LinearLayout>
+</LinearLayout>

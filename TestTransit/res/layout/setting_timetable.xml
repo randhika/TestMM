@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/bg_home_base" android:paddingLeft="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/autoupdate_desc" style="@style/txtS" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/padding_mid" android:paddingRight="8.0dip" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icon_start_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_reload" />
+                <TextView android:id="@id/autoupdate_time" android:background="@drawable/list_blue_background_selector2" android:paddingLeft="@dimen/padding_normal" android:paddingRight="@dimen/padding_normal" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/autoupdate_no" android:layout_weight="1.0" style="@style/txtXL" />
+                <include android:id="@id/toggle" layout="@layout/custom_switch" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/no_setting" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/autoupdate_no_station" style="@style/txtM" />
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

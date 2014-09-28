@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/base" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center_vertical" android:id="@id/widget_transit_button" android:background="@drawable/widget_btn_train" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:minWidth="36.0dip" android:minHeight="44.0dip" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/widget_to_button" android:background="@drawable/widget_btn_txtarea" android:paddingTop="@dimen/text_padding_mid" android:paddingBottom="@dimen/text_padding_mid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/hint_goal_name_widget" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/widget_voice_button" android:background="@drawable/widget_btn_voice" android:clickable="true" android:layout_width="29.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:minWidth="29.0dip" android:minHeight="38.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <Button android:id="@id/widget_home_button" android:background="@drawable/widget_btn_home" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:minWidth="40.0dip" android:minHeight="56.0dip" />
+</LinearLayout>

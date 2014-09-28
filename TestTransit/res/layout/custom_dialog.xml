@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_txt_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@*android:color/black" android:gravity="center_horizontal" android:id="@id/dialog_title" android:paddingTop="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="タイトル" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/text_size_smallest" android:textColor="@*android:color/black" android:gravity="left" android:id="@id/dialog_contents" android:padding="@dimen/padding_big" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="詳細メッセージ" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_btn_area" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/text_size_normal" android:textStyle="bold" android:textColor="@color/black" android:id="@id/dialog_btn_positive" android:padding="@dimen/padding_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_big" android:layout_marginTop="@dimen/padding_normal" android:layout_marginRight="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_normal" android:text="ボタン１" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/black" android:id="@id/dialog_btn_negative" android:padding="@dimen/padding_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_big" android:layout_marginRight="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_normal" android:text="ボタン２" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</LinearLayout>

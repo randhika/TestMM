@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:background="@color/bg_home_base" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_start_desc" style="@style/txtS" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/gray_background" android:padding="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setting_start_title" android:layout_weight="1.0" style="@style/txtL" />
+            <Button android:id="@id/add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_normal" android:text="@string/btn_plus_add" android:onClick="addSetting" style="@style/btn_normal_btn03" />
+        </LinearLayout>
+        <TextView android:id="@id/no_setting" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_start_no_setting" style="@style/txtM" />
+        <LinearLayout android:orientation="vertical" android:id="@id/start_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

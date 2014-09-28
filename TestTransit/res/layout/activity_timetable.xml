@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:background="@color/white" android:padding="@dimen/text_padding_small" android:scrollbars="none" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/timetable_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="駅名" android:singleLine="true" style="@style/txtL" />
+    </HorizontalScrollView>
+    <View android:background="#ffdddddd" android:layout_width="wrap_content" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:background="@color/white" android:padding="@dimen/text_padding_small" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/timetable_rail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="路線名\n【方面名】" android:maxLines="2" style="@style/txtM" />
+        </HorizontalScrollView>
+        <TextView android:textColor="@color/text_link" android:gravity="right" android:layout_gravity="right|center" android:id="@id/timetable_select_filter" android:paddingLeft="@dimen/padding_large" android:paddingTop="@dimen/padding_normal" android:paddingRight="@dimen/padding_smallest" android:paddingBottom="@dimen/padding_normal" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timetable_st_select_filter" android:drawableRight="@drawable/arrow_right05" android:onClick="showSelectFilter" style="@style/txtM" />
+    </LinearLayout>
+    <TabHost android:id="@*android:id/tabhost" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/timetable_selecting_date" android:background="@color/yellow_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/timetable_selecting_date_close" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close02" android:onClick="cancelSelectDate" />
+                <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/timetable_selecting_date_text" android:paddingLeft="5.0dip" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/txtM" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/timetable_tab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TabWidget android:id="@*android:id/tabs" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:showDividers="none" />
+                <TextView android:textColor="@color/text_link" android:gravity="right" android:layout_gravity="right|center" android:paddingTop="@dimen/padding_normal" android:paddingRight="@dimen/padding_smallest" android:paddingBottom="@dimen/padding_normal" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_big" android:text="@string/timetable_st_select_date" android:drawableRight="@drawable/arrow_right05" android:onClick="showSelectDate" style="@style/txtM" />
+            </LinearLayout>
+            <ImageView android:gravity="fill_horizontal" android:id="@id/timetable_tab_line" android:background="@color/tab_color" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <FrameLayout android:id="@*android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

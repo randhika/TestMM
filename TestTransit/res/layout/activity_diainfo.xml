@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/diainfo_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/diainfo_child" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/diainfo_all_title" app:titleIcn="@drawable/icon_allline"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/all_category" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/maintext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diainfo_all_category" style="@style/txtL" />
+                    <TextView android:textColor="@color/darkgray" android:id="@id/subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/diainfo_all_category_sub" style="@style/txtS_gray" />
+                </LinearLayout>
+                <ImageView android:id="@id/diainfo_category_exist" android:background="@color/transparent" android:paddingRight="@dimen/padding_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_exclamation" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/diainfo_title_regist_station" app:titleIcn="@drawable/icon_registeredline"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_list_resist" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/diainfo_noregist" android:padding="@dimen/padding_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:background="@drawable/icon_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diainfo_no_regist" android:layout_alignParentLeft="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/diainfo_list_resist_nologin" android:padding="@dimen/padding_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/diainfo_login" android:layout_weight="60.0" android:layout_alignParentLeft="true" />
+                <Button android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/login_button" android:background="@drawable/btn02_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/label_preferences_login" android:layout_weight="40.0" android:onClick="loginRequest" />
+            </LinearLayout>
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/around" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/diainfo_title_around" app:titleIcn="@drawable/icon_nearline"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_list_around" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/diainfo_list_no_around" android:padding="@dimen/padding_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/diainfo_no_arround" android:layout_weight="60.0" android:layout_alignParentLeft="true" />
+                    <Button android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/btn_scope_txt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/diainfo_get_info" android:layout_weight="40.0" android:onClick="aroundSearch" />
+                </LinearLayout>
+                <TextView android:textColor="@color/route_detail_condition_font" android:id="@id/around_search" android:padding="@dimen/padding_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diainfo_around_search" android:layout_alignParentLeft="true" style="@style/txtL" />
+            </LinearLayout>
+            <include android:id="@id/diainfo_mail" layout="@layout/diainfo_mail_entry" />
+            <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

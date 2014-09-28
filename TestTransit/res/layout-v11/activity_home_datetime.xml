@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/datetime_condition_root" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/date_display_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/calendar" android:scaleType="fitCenter" />
+                <TextView android:gravity="center_vertical" android:id="@id/date_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/txtXL" />
+                <TextView android:gravity="center_vertical" android:id="@id/time_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/txtXL" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <jp.co.yahoo.android.apps.transit.viewparts.CustomDatePicker android:id="@id/date_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+                <jp.co.yahoo.android.apps.transit.viewparts.CustomTimePicker android:id="@id/time_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:imeOptions="actionDone" />
+            </LinearLayout>
+            <Button android:id="@id/dummy_for_focus" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                <Button android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/button_search_type_current" android:singleLine="true" android:onClick="setDatetimeCurrent" style="@style/btn_normal_hight_btn03" />
+                <Button android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/label_5min_before" android:singleLine="true" android:onClick="minus5min" style="@style/btn_normal_hight_btn03" />
+                <Button android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_5min_after" android:singleLine="true" android:onClick="pulus5min" style="@style/btn_normal_hight_btn03" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <Button android:textColor="@color/text_black_color02" android:id="@id/button_start" android:background="@drawable/bg_tab_data_l_selector" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_search_type_start" android:onClick="setDatetimeStart" style="@style/txtL" />
+                <Button android:textColor="@color/text_black_color02" android:id="@id/button_goal" android:background="@drawable/bg_tab_data_r_selector" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/button_search_type_goal" android:onClick="setDatetimeGoal" style="@style/txtL" />
+                <Button android:textColor="@color/text_black_color02" android:id="@id/button_first" android:background="@drawable/bg_tab_data_l_selector" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/button_search_type_first" android:singleLine="true" android:onClick="setDatetimeFirst" style="@style/txtL" />
+                <Button android:textColor="@color/text_black_color02" android:id="@id/button_last" android:background="@drawable/bg_tab_data_r_selector" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_search_type_last" android:singleLine="true" android:onClick="setDatetimeLast" style="@style/txtL" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:minHeight="37.0dip" android:text="@string/button_submit" android:onClick="setDatetimeFinish" style="@style/btn_big_btn02" />
+    </LinearLayout>
+</LinearLayout>

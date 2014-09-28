@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_home_base" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@color/bg_msg_attention" android:paddingLeft="@dimen/padding_normal" android:paddingRight="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="30.0sp" android:id="@id/divide_time_text" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14:00" android:layout_centerInParent="true" style="@style/txtXL" />
+                <TextView android:paddingRight="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_divide_time" android:layout_toLeftOf="@id/divide_time_text" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/txtL" />
+                <TextView android:textColor="@color/text_link" android:id="@id/divide_time_change" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_change" android:drawableLeft="@drawable/arrow_bottom03" android:drawablePadding="2.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="changeTime" style="@style/txtL" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dip" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                    <TextView android:gravity="center_horizontal" android:id="@id/divide_before_time" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="始発～14:00" android:drawableTop="@drawable/icn_go_l" android:drawablePadding="@dimen/padding_medium" android:layout_weight="1.0" style="@style/txtXL" />
+                    <TextView android:gravity="center_horizontal" android:id="@id/divide_after_time" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="14:00～終電" android:drawableTop="@drawable/icn_back_l" android:drawablePadding="@dimen/padding_medium" android:layout_weight="1.0" style="@style/txtXL" />
+                </LinearLayout>
+                <ImageView android:id="@id/divide_change" android:background="@drawable/list_blue_background_selector" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:src="@drawable/btn_chgtime" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:onClick="changeDivide" android:contentDescription="⇔" />
+            </RelativeLayout>
+            <TextView android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_divide_desc" style="@style/txtS" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@color/gray" android:paddingTop="@dimen/padding_large" android:paddingBottom="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_normal" android:layout_marginRight="@dimen/padding_small" android:text="@string/button_cancel" android:layout_weight="1.0" android:onClick="cancel" style="@style/btn_big_btn03" />
+        <Button android:background="@drawable/btn02_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_marginRight="@dimen/padding_normal" android:text="@string/button_set" android:layout_weight="1.0" android:onClick="save" style="@style/btn_big_btn01" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

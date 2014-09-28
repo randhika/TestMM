@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_border_bottom_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1ヶ月" style="@style/txtL" />
+    <TextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="99,900円" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/txtL" />
+    <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/icn_info" android:layout_toLeftOf="@id/subtitle" android:layout_centerVertical="true" />
+</RelativeLayout>

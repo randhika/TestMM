@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/startInput" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"> >
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@*android:drawable/edit_text" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <jp.co.yahoo.android.apps.transit.viewparts.AutoCompleteSuggestTextView android:textSize="@dimen/text_size_small" android:id="@id/input_text" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_start_name" android:singleLine="true" android:layout_weight="1.0" android:layout_toLeftOf="@id/inputFinish" android:inputType="text" android:imeOptions="actionNext" />
+        <Button android:id="@id/delete_text" android:background="@drawable/batsu" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/padding_small" android:layout_weight="0.0" />
+    </LinearLayout>
+    <Button android:id="@id/inputFinish" android:background="@drawable/btn02_selector" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/padding_small" android:text="@string/button_search" android:layout_centerVertical="true" style="@style/btn_normal_btn02" />
+</LinearLayout>

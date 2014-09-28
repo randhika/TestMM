@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/sidebar_bg_border" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sidebar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="300.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/sidebar_app_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_title"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_home" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_home" app:titleIcn="@drawable/icon_menu01"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_mypage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_mypage" app:titleIcn="@drawable/icon_menu02"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_timetable" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_timetable" app:titleIcn="@drawable/icon_menu03"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_railmap" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_route_map" app:titleIcn="@drawable/icon_menu04"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_diainfo" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_running_info" app:titleIcn="@drawable/icon_menu05" app:titleSubIcn="@drawable/popup_new"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_other" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_other" app:titleIcn="@drawable/icon_menu06" app:titleSubIcn="@drawable/icn_alerm_set"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/menu_timer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_timer_title"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_timer_countdown" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_countdown" app:titleIcn="@drawable/icn_timermenu01"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_timer_around" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_around" app:titleIcn="@drawable/icn_timermenu02"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <include layout="@layout/divider_horizontal_line" />
+            <jp.co.yahoo.android.apps.transit.viewparts.ListItemImageText android:id="@id/menu_timer_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/menu_setting" app:titleIcn="@drawable/icn_timermenu03"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        </LinearLayout>
+        <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/sidebar_app_recommend_label" android:layout_width="fill_parent" android:layout_height="fill_parent" app:titleText="@string/menu_title_reccomend"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <LinearLayout android:orientation="vertical" android:id="@id/sidebar_app_recommend_menus" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/sidebar_logo" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="300.0dip" android:layout_height="fill_parent" android:src="@drawable/yjlogo" android:scaleType="center" />
+    </LinearLayout>
+</ScrollView>

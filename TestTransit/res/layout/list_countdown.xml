@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_normal" android:layout_marginTop="@dimen/countdown_padding_large" android:layout_marginRight="@dimen/padding_normal" android:layout_marginBottom="@dimen/countdown_padding_large">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/text_black_color02" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/list_countdown_railname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" style="@style/CountdownTxtL" />
+        </HorizontalScrollView>
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/text_black_color02" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/list_countdown_dir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" style="@style/CountdownTxtL" />
+        </HorizontalScrollView>
+        <TextView android:textColor="@color/text_black_color02" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/list_countdown_stname" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/CountdownTxtXL2" />
+    </LinearLayout>
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/list_countdown_scroll_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/date_display" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal" android:layout_marginBottom="@dimen/padding_small" style="@style/txtXL" />
+    <TextView android:gravity="center" android:id="@id/time_display" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal" android:layout_marginBottom="@dimen/padding_small" style="@style/txtXL" />
+    <DatePicker android:id="@id/date_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_small" android:calendarViewShown="false" />
+    <TimePicker android:id="@id/time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_small" />
+</LinearLayout>

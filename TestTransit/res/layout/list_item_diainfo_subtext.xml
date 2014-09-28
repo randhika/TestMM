@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/padding_small" android:paddingRight="@dimen/padding_normal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:gravity="center_vertical" android:id="@id/diainfo_maintext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="メインタイトル" android:drawablePadding="@dimen/padding_small" style="@style/txtL" />
+        <TextView android:textColor="@color/darkgray" android:id="@id/subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sub_tx_top" android:text="サブ" style="@style/txtS" />
+    </LinearLayout>
+    <ImageView android:id="@id/diainfo_exist" android:background="@color/transparent" android:paddingRight="@dimen/padding_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_exclamation" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_stairs_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_stairs" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_escalator_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_escalator" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_elevator_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_elevator" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_kaisatsu_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_kaisatsu" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_slope_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_slope" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_home_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_home" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="2.0dip">
+        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pic_passage_on" />
+        <TextView android:textSize="@dimen/text_size_big" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_pict_passage" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/list_padding_tb" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:id="@id/station_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtL" />
+        <TextView android:id="@id/line_text" android:paddingTop="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtM" />
+        <TextView android:id="@id/update_text" android:paddingTop="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtM" />
+    </LinearLayout>
+    <Button android:id="@id/btn_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/update" style="@style/btn_normal_btn03" />
+</LinearLayout>

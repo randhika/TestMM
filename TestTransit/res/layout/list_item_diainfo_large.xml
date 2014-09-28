@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/diainfo_maintext" android:paddingLeft="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="メインタイトル" android:layout_weight="1.0" style="@style/txtL" />
+    <ImageView android:id="@id/diainfo_exist" android:background="@color/transparent" android:paddingRight="@dimen/padding_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_exclamation" />
+</LinearLayout>

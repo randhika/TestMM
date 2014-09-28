@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialog_contents" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_btn_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:showDividers="middle|beginning" android:dividerPadding="0.0dip">
+        <Button android:textSize="14.0sp" android:id="@id/dialog_btn_positive" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:textSize="14.0sp" android:id="@id/dialog_btn_neutral" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:textSize="14.0sp" android:id="@id/dialog_btn_negative" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

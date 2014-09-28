@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/timetable_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/rail_direction_list" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/SubTitleBlackText" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/station_name" android:background="@color/bg_gray_main_ttl" android:padding="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:text="駅名" />
+            <TextView android:textAppearance="@style/SubTitleText" android:textStyle="normal" android:id="@id/station_desc" android:background="@color/gray4" android:padding="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/station_desc_home" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

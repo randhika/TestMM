@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="1.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_preference_ticket_title"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+                    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_preference_ticket_kind" android:singleLine="true" android:layout_weight="1.0" style="@style/txtL" />
+                    <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/selected_ticket_kind" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" style="?android:attr/spinnerItemStyle" />
+                </LinearLayout>
+                <TextView android:layout_gravity="center_vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_cond_ticket_desc" style="@style/txtS_gray" />
+            </LinearLayout>
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/walk_speed_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_preference_search_title"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+                <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/label_preference_seat_kind" android:singleLine="true" android:layout_weight="1.0" style="@style/txtL" />
+                <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/selected_seat_kind" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" style="?android:attr/spinnerItemStyle" />
+            </LinearLayout>
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_way_in_use"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icn_method01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_method01" android:layout_centerVertical="true" />
+                <TextView android:id="@id/textView1" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/check_bullet_train" android:layout_toRightOf="@id/icn_method01" android:layout_centerVertical="true" style="@style/txtL" />
+                <CheckBox android:id="@id/switch_bullet_train" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icn_method02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_method02" android:layout_centerVertical="true" />
+                <TextView android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/check_toll_express" android:layout_toRightOf="@id/icn_method02" android:layout_centerVertical="true" style="@style/txtL" />
+                <CheckBox android:id="@id/switch_toll_express" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icn_method03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_method03" android:layout_centerVertical="true" />
+                <TextView android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/check_airplane" android:layout_toRightOf="@id/icn_method03" android:layout_centerVertical="true" style="@style/txtL" />
+                <CheckBox android:id="@id/switch_airplane" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icn_method04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_method04" android:layout_centerVertical="true" />
+                <TextView android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/check_expressway_bus" android:layout_toRightOf="@id/icn_method04" android:layout_centerVertical="true" style="@style/txtL" />
+                <CheckBox android:id="@id/switch_expressway_bus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icn_method05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_method05" android:layout_centerVertical="true" />
+                <TextView android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/check_route_bus" android:layout_toRightOf="@id/icn_method05" android:layout_centerVertical="true" style="@style/txtL" />
+                <CheckBox android:id="@id/switch_route_bus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icn_method06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_method06" android:layout_centerVertical="true" />
+                <TextView android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/check_ferry" android:layout_toRightOf="@id/icn_method06" android:layout_centerVertical="true" style="@style/txtL" />
+                <CheckBox android:id="@id/switch_ferry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_horizontal_line" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/save_condition" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/save_cond_desc" />
+        <Button android:id="@id/button_search" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:minHeight="37.0dip" android:text="@string/button_submit" android:onClick="saveAndBack" style="@style/btn_big_btn02" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

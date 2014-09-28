@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@*android:drawable/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+            <EditText android:id="@id/address_text" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/label_preferences_myaddress_hint" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/address_delete_text" android:background="@drawable/batsu" android:visibility="gone" android:clickable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <Button android:layout_gravity="center" android:id="@id/button_current_place" android:background="@drawable/btn_scope" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:id="@id/regist_myaddress" android:background="@drawable/btn02_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="5.0dip" android:text="@string/label_preferences_set_myaddress" style="@style/btn_big_btn02" />
+    <Button android:textColor="@color/white" android:id="@id/del_sharedpreference_data" android:background="@drawable/btn01_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="5.0dip" android:text="@string/label_preferences_del_myaddress" style="@style/btn_big_btn01" />
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

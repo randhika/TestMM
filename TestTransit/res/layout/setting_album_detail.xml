@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <GridView android:gravity="center_horizontal" android:id="@id/list_view" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:stretchMode="columnWidth" android:columnWidth="100.0dip" android:numColumns="auto_fit" />
+        <TextView android:id="@id/message" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_medium" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/skin_msg_album_no_data" style="@style/txtM" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/skin_album_select" android:onClick="selectAlbum" style="@style/btn_big_btn01" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

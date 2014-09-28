@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:text="Yahoo! JAPAN ID:" />
+        <EditText android:textSize="18.0dip" android:id="@id/CommonEditTextYID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="Yahoo! JAPAN ID" android:singleLine="true" android:inputType="textEmailAddress" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="パスワード:" />
+        <EditText android:textSize="18.0dip" android:id="@id/CommonEditTextPasswd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="パスワード" android:singleLine="true" android:inputType="textPassword" />
+        <CheckBox android:textSize="18.0dip" android:textColor="#ff000000" android:id="@id/CommonCheckBoxAutoLogin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="次回からIDの入力を省略" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="18.0dip" android:id="@id/CommonButtonLogin" android:background="@drawable/common_login_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ログイン" />
+            <TextView android:textColor="#ff000000" android:id="@id/CommonLoginExtraMessage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <Button android:textSize="18.0dip" android:id="@id/CommonButtonGetYID" android:background="@drawable/common_get_yid_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Yahoo! JAPAN IDを取得" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/common_yahoo_logo" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

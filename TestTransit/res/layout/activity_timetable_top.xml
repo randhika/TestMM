@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/timetable_top_child" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@*android:drawable/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/abc_ic_search_api_holo_light" />
+            <EditText android:id="@id/address_text" android:background="@null" android:focusable="false" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search_station_keyword" android:singleLine="true" android:onClick="showKeywordSearch" />
+        </LinearLayout>
+        <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/title_station_regist" app:titleIcn="@drawable/icon_registeredline"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <LinearLayout android:orientation="vertical" android:id="@id/list_regist" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/list_no_regist" android:padding="@dimen/padding_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:background="@drawable/icon_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timetable_top_no_regist" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/list_regist_nologin" android:padding="@dimen/padding_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/timetable_top_login" android:layout_weight="60.0" />
+            <Button android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/login_button" android:background="@drawable/btn02_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/label_preferences_login" android:layout_weight="40.0" android:onClick="loginRequest" />
+        </LinearLayout>
+        <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/around" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_here_station" app:titleIcn="@drawable/icon_nearline"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <LinearLayout android:orientation="vertical" android:id="@id/list_around" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/list_no_around" android:padding="@dimen/padding_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/timetable_top_no_arround" android:layout_weight="60.0" />
+                <Button android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/btn_scope_txt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/timetable_top_get_info" android:layout_weight="40.0" android:onClick="aroundSearch" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/route_detail_condition_font" android:id="@id/around_search" android:padding="@dimen/padding_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timetable_top_around_search" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

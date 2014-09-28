@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <jp.co.yahoo.android.apps.transit.viewparts.ListItemArrow android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="launchStation" app:titleText="@string/setting_station"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <include layout="@layout/divider_horizontal_line" />
+        <jp.co.yahoo.android.apps.transit.viewparts.ListItemArrow android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="launchStartup" app:titleText="@string/setting_startup"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <include layout="@layout/divider_horizontal_line" />
+        <jp.co.yahoo.android.apps.transit.viewparts.ListItemArrow android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="launchTimetable" app:titleText="@string/setting_timetalbe"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <include layout="@layout/divider_horizontal_line" />
+        <jp.co.yahoo.android.apps.transit.viewparts.ListItemArrow android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="launchDivide" app:titleText="@string/setting_divide"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <include layout="@layout/divider_horizontal_line" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="launchSkin">
+                <TextView android:gravity="center_vertical" android:paddingLeft="@dimen/padding_small" android:paddingTop="@dimen/list_padding_tb" android:paddingBottom="@dimen/list_padding_tb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_skin" style="@style/txtL" />
+                <ImageView android:layout_gravity="left|center" android:id="@id/skin_first" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/popup_new" android:contentDescription="new" />
+                <View android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/arrow_right06" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+        </LinearLayout>
+        <jp.co.yahoo.android.apps.transit.viewparts.ListItemArrow android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="createShortcut" app:titleText="@string/label_menu_result_list_shortcut"
+          xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        <include layout="@layout/divider_horizontal_line" />
+        <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_info_on">false</item>
+    <item type="drawable" name="btn_info_off">false</item>
+    <item type="drawable" name="btn_drop_on">false</item>
+    <item type="drawable" name="btn_drop_off">false</item>
+    <item type="drawable" name="btn_benri_on">false</item>
+    <item type="drawable" name="btn_benri_off">false</item>
+    <item type="drawable" name="mod01_on">false</item>
+    <item type="drawable" name="mod01_off">false</item>
+    <item type="drawable" name="btn_left_on">false</item>
+    <item type="drawable" name="btn_left_off">false</item>
+    <item type="drawable" name="btn_right_on">false</item>
+    <item type="drawable" name="btn_right_off">false</item>
+</resources>

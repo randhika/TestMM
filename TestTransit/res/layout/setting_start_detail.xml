@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/ScrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/startup_detail_body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/startup_line" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showLineDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_line" style="@style/txtL" />
+                <TextView android:id="@id/line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_no" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/startup_time_body" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showStartTimeDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_startuptime" style="@style/txtL" />
+                <TextView android:id="@id/startup_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_no" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/countdown_time_body" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showCountdownTimeDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_countdown" style="@style/txtL" />
+                <TextView android:id="@id/countdown_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_no" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/repeat_body" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showRepeatDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_repeat" style="@style/txtL" />
+                <TextView android:id="@id/repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_repeat_no" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sound_body" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showSoundDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_sound" style="@style/txtL" />
+                <TextView android:id="@id/sound" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_sound_no" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sound_length" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showLengthDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_alerm_length" style="@style/txtL" />
+                <TextView android:id="@id/length" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="5秒" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sound_volume" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showVolumeDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_alerm_volume" style="@style/txtL" />
+                <TextView android:id="@id/volume" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="50%" style="@style/txtM" />
+            </LinearLayout>
+            <include layout="@layout/divider_horizontal_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sound_vibration" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showVibDialog">
+                <TextView android:textStyle="bold" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_vibration" style="@style/txtL" />
+                <TextView android:id="@id/vibration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_on" style="@style/txtM" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@color/gray" android:paddingTop="@dimen/padding_large" android:paddingBottom="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_normal" android:layout_marginRight="@dimen/padding_small" android:text="@string/btn_delete" android:layout_weight="1.0" android:onClick="delete" style="@style/btn_big_btn03" />
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_marginRight="@dimen/padding_small" android:text="@string/button_cancel" android:layout_weight="1.0" android:onClick="cancel" style="@style/btn_big_btn03" />
+        <Button android:id="@id/save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_marginRight="@dimen/padding_normal" android:text="@string/btn_finish" android:layout_weight="1.0" android:onClick="save" style="@style/btn_big_btn02" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

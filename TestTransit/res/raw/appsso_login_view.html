@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>sso for apps - xhdpi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="file:///android_res/drawable/appsso_y129.png">
+<link rel="stylesheet" href="file:///android_res/raw/appsso_style.css" type="text/css" media="all">
+</head>
+<body>
+
+
+<div class="logo"><img src="file:///android_res/drawable/appsso_logo.png" width="160" height="42"></div>
+<div class="text"><p>Yahoo! JAPAN IDでログイン</p></div>
+<div id="mainBtn"><a href="#" onClick="alert('login')"><img src="file:///android_res/drawable/appsso_login.png" width="280" height="50"></a></div>
+<div id="subBtn"><a href="#" onClick="alert('registration')"><img src="file:///android_res/drawable/appsso_reg.png" width="280" height="50"></a></div>
+
+
+<script type="text/javascript">
+<!--
+var setRollOver = function(el, pic1, pic2){
+    var imgEl1 = document.createElement("img");
+    var imgEl2 = document.createElement("img");
+    imgEl1.src = pic1;
+    imgEl2.src = pic2;
+    el.ontouchstart = function(){
+        this.src = pic2;
+    };
+    el.ontouchend = function(){
+        this.src = pic1;
+    };
+}
+window.onload = function(){
+    setRollOver(document.getElementById("mainBtn").getElementsByTagName("img")[0],"file:///android_res/drawable/appsso_login.png","file:///android_res/drawable/appsso_login_on.png");
+    setRollOver(document.getElementById("subBtn").getElementsByTagName("img")[0],"file:///android_res/drawable/appsso_reg.png","file:///android_res/drawable/appsso_reg_on.png");
+}
+-->
+</script>
+</body>
+</html>

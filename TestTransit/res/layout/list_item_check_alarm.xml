@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_logo" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/padding_normal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/padding_normal" android:paddingTop="@dimen/padding_small" android:paddingRight="@dimen/padding_big" android:paddingBottom="@dimen/padding_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/list_min_height" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_normal" android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/padding_smallest" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/darkgray" android:layout_gravity="center_vertical" android:id="@id/item_time_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/padding_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_alarm_s" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/darkgray" android:layout_gravity="center_vertical" android:id="@id/item_length_text" android:paddingLeft="@dimen/padding_smallest" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/item_check" android:paddingRight="@dimen/padding_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

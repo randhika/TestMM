@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/start_cand_layout" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_start_name_long" app:titleType="1"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/start_cand_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/label_start_name_long" style="?android:attr/spinnerItemStyle" />
+            <TextView android:textSize="@dimen/text_size_normal" android:id="@id/start_cand_text" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/goal_cand_layout" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_goal_name_long" app:titleType="1"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/goal_cand_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/label_goal_name_long" />
+            <TextView android:textSize="@dimen/text_size_normal" android:id="@id/goal_cand_text" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/via_cand_layout" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_via1" app:titleType="1"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/via_cand_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/label_via1" />
+            <TextView android:textSize="@dimen/text_size_normal" android:id="@id/via_cand_text" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/via_cand_layout2" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_via2" app:titleType="1"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/via_cand_spinner2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/label_via2" />
+            <TextView android:textSize="@dimen/text_size_normal" android:id="@id/via_cand_text2" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/via_cand_layout3" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/label_via3" app:titleType="1"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <Spinner android:textSize="@dimen/text_size_normal" android:id="@id/via_cand_spinner3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/label_via3" />
+            <TextView android:textSize="@dimen/text_size_normal" android:id="@id/via_cand_text3" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:background="@drawable/btn02_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:text="@string/label_research" android:onClick="searchWithOtherCandidate" style="@style/btn_big_btn02" />
+        <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:background="@drawable/btn01_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:text="@string/result_list_change_condition" android:onClick="saveAndFinish" style="@style/btn_big_btn01" />
+    </LinearLayout>
+</ScrollView>

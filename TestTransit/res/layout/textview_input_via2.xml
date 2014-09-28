@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:focusable="true" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginRight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/text_black_color02" android:gravity="center" android:background="@drawable/bg_top_via_ttl02" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/label_via2" android:singleLine="true" />
+    <RelativeLayout android:id="@id/via_name_box" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_normal" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/edit_via" android:background="@drawable/bg_home_via_selector" android:paddingLeft="10.0dip" android:paddingRight="28.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hint_via_station_bus" android:singleLine="true" />
+        <Button android:id="@id/delete_text" android:background="@drawable/batsu" android:paddingLeft="5.0dip" android:clickable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/padding_small" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

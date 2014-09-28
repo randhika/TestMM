@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_blue_background_selector" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon_start_setting" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_myhome" android:contentDescription="@string/label_home" />
+        <TextView android:id="@id/time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/txtXL" />
+        <include android:id="@id/toggle" layout="@layout/custom_switch" />
+    </LinearLayout>
+    <TextView android:id="@id/line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39.0dip" android:layout_marginRight="@dimen/padding_normal" android:layout_marginBottom="@dimen/padding_small" style="@style/txtM" />
+    <TextView android:id="@id/week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39.0dip" android:layout_marginRight="@dimen/padding_normal" style="@style/txtM" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/startInput" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"> >
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@*android:drawable/edit_text" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <EditText android:textSize="@dimen/text_size_small" android:id="@id/input_text" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/routemap_hint" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionNext" />
+    </LinearLayout>
+</LinearLayout>

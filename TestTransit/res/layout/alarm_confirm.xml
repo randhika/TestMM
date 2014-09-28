@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_normal" android:gravity="center" android:id="@id/alarm_confirm_no_alarm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_normal" android:text="@string/alarm_confirm_no_alarm" />
+    <ScrollView android:id="@id/alarm_setting_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/alarm_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/delete_btn_area" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textStyle="bold" android:textColor="@color/white" android:id="@id/delete_btn" android:background="@drawable/btn01_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btn_padding_wide" android:layout_marginTop="@dimen/padding_normal" android:layout_marginRight="@dimen/btn_padding_wide" android:layout_marginBottom="@dimen/padding_normal" android:text="@string/alarm_confirm_delete" style="@style/btn_big_btn01" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.co.yahoo.android.apps.transit.common.SectionListView android:id="@id/timetable_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+    <jp.co.yahoo.android.apps.transit.common.SectionSelector android:id="@id/section_selector" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_alignParentRight="true"
+      xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+</RelativeLayout>

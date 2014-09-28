@@ -1,0 +1,49 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: braces fieldsfirst space lnc 
+
+package org.codehaus.jackson.map.deser;
+
+import java.io.IOException;
+import org.codehaus.jackson.JsonParser;
+import org.codehaus.jackson.JsonProcessingException;
+import org.codehaus.jackson.map.DeserializationContext;
+import org.codehaus.jackson.node.ArrayNode;
+
+// Referenced classes of package org.codehaus.jackson.map.deser:
+//            BaseNodeDeserializer, JsonNodeDeserializer
+
+static final class  extends BaseNodeDeserializer
+{
+
+    protected static final deserializeArray _instance = new <init>();
+
+    public static  getInstance()
+    {
+        return _instance;
+    }
+
+    public volatile Object deserialize(JsonParser jsonparser, DeserializationContext deserializationcontext)
+        throws IOException, JsonProcessingException
+    {
+        return deserialize(jsonparser, deserializationcontext);
+    }
+
+    public ArrayNode deserialize(JsonParser jsonparser, DeserializationContext deserializationcontext)
+        throws IOException, JsonProcessingException
+    {
+        if (jsonparser.isExpectedStartArrayToken())
+        {
+            return deserializeArray(jsonparser, deserializationcontext);
+        } else
+        {
+            throw deserializationcontext.mappingException(org/codehaus/jackson/node/ArrayNode);
+        }
+    }
+
+
+    protected ()
+    {
+        super(org/codehaus/jackson/node/ArrayNode);
+    }
+}

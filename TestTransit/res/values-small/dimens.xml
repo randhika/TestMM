@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="countdown_list_num_width">48.0dip</dimen>
+    <dimen name="countdown_padding_large">10.0dip</dimen>
+    <dimen name="countdown_text_size_l">14.0sp</dimen>
+    <dimen name="countdown_text_size_m">12.0sp</dimen>
+    <dimen name="countdown_text_size_s">11.0sp</dimen>
+    <dimen name="countdown_text_size_xl1">20.0sp</dimen>
+    <dimen name="countdown_text_size_xl2">24.0sp</dimen>
+    <dimen name="countdown_text_size_xl3">30.0sp</dimen>
+    <dimen name="countdown_text_size_xl4">36.0sp</dimen>
+    <dimen name="countdown_text_size_xs">10.0sp</dimen>
+</resources>

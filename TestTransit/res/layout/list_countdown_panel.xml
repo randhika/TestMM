@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingBottom="1.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/list_countdown_panel" android:background="@color/countdown_bg_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/num_text" android:layout_width="@dimen/countdown_list_num_width" android:layout_height="fill_parent" android:text="10" android:singleLine="true" style="@style/CountdownTxtXL3" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/padding_normal" android:paddingRight="@dimen/padding_normal" android:paddingBottom="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@id/list_countdown_panel_train_type" android:background="@color/countdown_fg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通 [始]" style="@style/CountdownTxtKind" />
+                <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/list_countdown_panel_stname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:text="東武動物公園 行き" android:singleLine="true" style="@style/CountdownTxtL" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_small" android:baselineAlignedChildIndex="1">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/list_countdown_panel_first_last" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_first" style="@style/CountdownTxtL" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/list_countdown_panel_departure_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05:51発" style="@style/CountdownTxtL" />
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:id="@id/list_countdown_panel_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23" android:singleLine="true" style="@style/CountdownTxtXL1" />
+                <TextView android:id="@id/list_countdown_panel_hour_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_hour" android:singleLine="true" style="@style/CountdownTxtL" />
+                <TextView android:id="@id/list_countdown_panel_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" android:singleLine="true" style="@style/CountdownTxtXL1" />
+                <TextView android:id="@id/list_countdown_panel_min_after" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_minute" android:singleLine="true" style="@style/CountdownTxtL" />
+                <TextView android:id="@id/list_countdown_panel_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" android:singleLine="true" style="@style/CountdownTxtXL1" />
+                <TextView android:id="@id/list_countdown_panel_second_after" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_second" android:singleLine="true" style="@style/CountdownTxtL" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

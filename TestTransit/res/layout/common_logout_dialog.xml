@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="ログアウト" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="作業中の内容は保存されません。" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/CommonTextViewYID" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:textSize="16.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/CommonButtonLogout" android:layout_width="285.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="ログアウト" />
+    <Button android:textSize="16.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/CommonButtonOtherLogin" android:layout_width="285.0dip" android:layout_height="wrap_content" android:text="別のYahoo! JAPAN IDでログイン" />
+    <Button android:textSize="16.0dip" android:gravity="center" android:id="@id/CommonButtonLogoutCancel" android:layout_width="285.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="キャンセル" />
+</LinearLayout>

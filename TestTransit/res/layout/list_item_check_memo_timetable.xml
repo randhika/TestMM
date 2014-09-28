@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:paddingLeft="@dimen/padding_list_h" android:paddingTop="@dimen/padding_list_v" android:paddingBottom="@dimen/padding_list_v" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtL" />
+        <TextView android:id="@id/item_sub_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtM" />
+        <TextView android:gravity="center_vertical" android:id="@id/item_sub_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtM" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/timetable_selecting_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:id="@id/timetable_selecting_date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtS_orange" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_memo_timetable_name" style="@style/txtS" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_vertical" android:id="@id/item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/txtS_gray" />
+    </LinearLayout>
+    <CheckBox android:id="@id/item_check" android:paddingLeft="@dimen/padding_checkbox" android:paddingRight="@dimen/padding_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

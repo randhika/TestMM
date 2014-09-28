@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@*android:id/background">
+        <shape android:shape="line">
+            <size android:width="3.0dip" />
+            <corners android:radius="5.0dip" />
+            <stroke android:width="2.0dip" android:color="@color/bg_weather_seekbar_base" />
+            <solid android:color="@color/bg_weather_seekbar_base" />
+        </shape>
+    </item>
+    <item android:id="@*android:id/progress">
+        <clip>
+            <shape android:shape="line">
+                <size android:width="3.0dip" />
+                <corners android:radius="5.0dip" />
+                <stroke android:width="2.0dip" android:color="@color/bg_weather_seekbar_prog" />
+                <solid android:color="@color/bg_weather_seekbar_prog" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

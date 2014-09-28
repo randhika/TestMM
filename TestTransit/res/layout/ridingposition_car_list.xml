@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/car_list_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pict_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_biggest" android:textStyle="bold" android:textColor="@color/red" android:id="@id/car_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_size_big" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_car_list_title" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:onClick="showPictDescDialog">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/stairs_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_stairs_off" />
+                <ImageView android:id="@id/escalator_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_escalator_off" />
+                <ImageView android:id="@id/elevator_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_elevator_off" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/kaisatsu_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_kaisatsu_off" />
+                <ImageView android:id="@id/slope_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_slope_off" />
+                <ImageView android:id="@id/home_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_home_off" />
+                <ImageView android:id="@id/passage_image" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_passage_off" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/car_list_left_arrow" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sw_left" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:gravity="center_vertical" android:id="@id/car_list_right_arrow" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sw_right" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:layout_gravity="center" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_pict_info" />
+</LinearLayout>

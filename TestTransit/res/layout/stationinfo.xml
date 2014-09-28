@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/list_padding_tb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/text_black_color02" android:gravity="center" android:id="@id/station_name" android:paddingLeft="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="駅名" android:layout_centerVertical="true" style="@style/txtXL" />
+        <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/stationinfo_registbtn_area" android:paddingLeft="@dimen/btn_padding_wide" android:paddingTop="@dimen/padding_normal" android:paddingRight="@dimen/btn_padding_wide" android:paddingBottom="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/stationinfo_registbtn" android:text="@string/stationinfo_regist_btn" style="@style/btn_big_btn01" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/stationinfo_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/stationinfo_subtilte_station" app:titleType="1"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/stationinfo_around_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/history2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/stationinfo_subtilte_around" app:titleSubText="@string/to_loco_web" app:titleType="1"
+                  xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_background_underline" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/title_text" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

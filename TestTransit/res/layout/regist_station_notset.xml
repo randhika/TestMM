@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:id="@id/history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/regist_station" app:titleIcn="@drawable/icon_registeredline"
+      xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+    <TextView android:textSize="@dimen/text_size_smallest" android:textColor="@color/route_detail_condition_font" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/err_msg_no_regist_station" />
+    <Button android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/login_button" android:background="@drawable/btn02_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/regist_station_notset" android:layout_weight="40.0" />
+</LinearLayout>

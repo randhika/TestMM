@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@id/bell" android:paddingLeft="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_alermtimer_set" android:contentDescription="@string/label_alerm" />
+            <TextView android:textStyle="bold" android:id="@id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_small" android:text="15:23発" style="@style/CountdownTxtL" />
+            <TextView android:textStyle="bold" android:id="@id/time_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="始発" style="@style/CountdownTxtL" />
+            <TextView android:id="@id/week" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/week_ordinary" android:drawableLeft="@drawable/arrow_bottom04" style="@style/CountdownTxtL" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/to_station" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="31.0dip" android:layout_marginRight="31.0dip">
+            <TextView android:gravity="center" android:id="@id/train_type" android:background="@color/countdown_fg_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通 [始]" android:singleLine="true" style="@style/CountdownTxtKind" />
+            <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/goalname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:text="都庁前 行き" android:singleLine="true" style="@style/CountdownTxtL" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/time_countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:id="@id/hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:singleLine="true" style="@style/CountdownTxtXL4" />
+            <TextView android:id="@id/hour_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_hour" android:singleLine="true" style="@style/CountdownTxtL" />
+            <TextView android:id="@id/minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05" android:singleLine="true" style="@style/CountdownTxtXL4" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_minute" android:singleLine="true" style="@style/CountdownTxtL" />
+            <TextView android:id="@id/second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="38" android:singleLine="true" style="@style/CountdownTxtXL4" />
+            <TextView android:id="@id/second_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_second" android:singleLine="true" style="@style/CountdownTxtL" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+</LinearLayout>

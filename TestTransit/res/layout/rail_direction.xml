@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/timetable_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/SubTitleBlackText" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/station_name" android:background="@color/bg_gray_main_ttl" android:paddingLeft="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="駅名" android:layout_centerVertical="true" /> 　 <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/rail_direction_list" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 　 <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" /> 　　</LinearLayout>
+    </ScrollView>>
+</LinearLayout>

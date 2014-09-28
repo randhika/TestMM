@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_link" android:layout_gravity="right|center" android:id="@id/timetable_link_timetable" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_small" android:layout_marginTop="@dimen/padding_normal" android:layout_marginRight="@dimen/padding_small" android:layout_marginBottom="@dimen/padding_normal" android:text="@string/timetable_st_link_timetable" android:drawableLeft="@drawable/arrow_top02" android:onClick="scrollToTimetable" style="@style/txtM" />
+    <LinearLayout android:orientation="vertical" android:id="@id/timetable_explain_mark" android:padding="@dimen/padding_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/timetable_explain_title" android:background="@drawable/info02_obi" android:paddingLeft="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timetable_st_label_sign" style="@style/txtL" />
+        <LinearLayout android:orientation="vertical" android:id="@id/timetable_explain_mark_content" android:background="@drawable/info02_bg" android:paddingLeft="@dimen/text_padding_small" android:paddingTop="@dimen/text_padding_small" android:paddingRight="@dimen/text_padding_small" android:paddingBottom="@dimen/text_padding_nomal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/padding_big" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="@color/info_sub_title__background" android:padding="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timetable_st_sign_kind" style="@style/txtM" />
+                <TextView android:id="@id/timetable_kind_mark" android:paddingTop="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="1.0sp" style="@style/txtM" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/padding_big" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="@color/info_sub_title__background" android:padding="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timetable_st_sign_distination" style="@style/txtM" />
+                <TextView android:id="@id/timetable_dest_mark" android:paddingTop="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="1.0sp" style="@style/txtM" />
+            </LinearLayout>
+            <TextView android:background="@color/info_sub_title__background" android:padding="@dimen/text_padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timetable_st_sign_mark" style="@style/txtM" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/timetable_etc_mark_first" android:paddingTop="@dimen/text_padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timetable_st_mark_circle" style="@style/txtM" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timetable_st_mark_first" style="@style/txtM" />
+            </LinearLayout>
+            <TextView android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timetable_st_mark_extra" android:drawableLeft="@drawable/icon_exclamation02" style="@style/txtM" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/button_station_info" android:layout_marginTop="@dimen/padding_big" android:layout_marginBottom="@dimen/padding_big" android:onClick="launchStationInfo" style="@style/btn_big_btn01" />
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

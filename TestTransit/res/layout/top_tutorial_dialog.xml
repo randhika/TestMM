@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/title" android:visibility="gone" android:layout_width="303.0dip" android:layout_height="wrap_content" android:src="@drawable/ttl_toptutorial_newuser" />
+        <RelativeLayout android:background="@drawable/bg_toptutorial" android:layout_width="303.0dip" android:layout_height="246.0dip">
+            <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="279.0dip" />
+            <ImageView android:id="@id/left_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="100.0dip" android:src="@drawable/arrow_toptutorial_l" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/label_top_tutorial_previous" />
+            <ImageView android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/arrow_toptutorial_r" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/label_top_tutorial_next" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="226.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/toptutorial_review_layout" android:background="@drawable/review_toptutorial" android:layout_width="303.0dip" android:layout_height="141.0dip">
+            <ImageView android:id="@id/button_review_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/btn_toptutorial_close" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="@string/button_close" />
+            <ImageView android:id="@id/button_review_vote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/btn_toptutorial_vote" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/button_toptutorial_vote" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/button_dialog_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_tutorialclose" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/button_close" />
+</RelativeLayout>

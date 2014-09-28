@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_blue_background_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/diainfo_icon" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_normal" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/diainfo_text" android:paddingLeft="@dimen/padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/list_min_height" android:text="@string/diainfo_noinfo" />
+</LinearLayout>

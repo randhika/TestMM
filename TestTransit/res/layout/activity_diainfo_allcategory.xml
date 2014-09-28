@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/diainfo_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/diainfo_child" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/AdView_Top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/diainfo_list_title_local"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_area_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <jp.co.yahoo.android.apps.transit.viewparts.GrayTitleBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleText="@string/diainfo_list_title_exp"
+              xmlns:app="http://schemas.android.com/apk/res/jp.co.yahoo.android.apps.transit" />
+            <LinearLayout android:orientation="vertical" android:id="@id/diainfo_exp_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/AdView_Bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/transit_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/transit_scroll_view" android:background="@color/bg_home_base" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/scroll_child" android:background="@color/bg_home_base" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/start_name_layout_position" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/white" android:gravity="center" android:background="@drawable/bg_top_sg_ttl" android:paddingLeft="15.0dip" android:paddingRight="14.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/label_start_name" android:singleLine="true" />
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/start_name_box" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/text_size_big" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/start_name" android:background="@drawable/bg_home_sg_name_selector" android:paddingLeft="10.0dip" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/label_here" android:hint="@string/hint_start_name" android:singleLine="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/via_station_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/start_name_layout_position">
+                    <include android:id="@id/via_station_layout1" android:visibility="gone" android:clickable="true" layout="@layout/textview_input_via1" />
+                    <include android:id="@id/via_station_layout2" android:visibility="gone" android:clickable="true" layout="@layout/textview_input_via2" />
+                    <include android:id="@id/via_station_layout3" android:visibility="gone" android:clickable="true" layout="@layout/textview_input_via3" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/goal_name_layout_position" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:layout_below="@id/via_station_area">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/white" android:gravity="center" android:background="@drawable/bg_top_sg_ttl" android:paddingLeft="15.0dip" android:paddingRight="14.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/label_goal_name" android:singleLine="true" />
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/goal_name_box" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/text_size_big" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/goal_name" android:background="@drawable/bg_home_sg_name_selector" android:paddingLeft="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hint_goal_name" android:singleLine="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <ImageView android:id="@id/reverseStartGoal" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/swap_off" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="reverseStartGoal" />
+                <ImageView android:id="@id/addVia" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="36.0dip" android:src="@drawable/addroute_off" android:layout_above="@id/dummy_bottom" android:layout_alignParentLeft="true" android:layout_alignParentRight="false" android:onClick="addVia" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/dummy_bottom" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_below="@id/goal_name_layout_position" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/time_detail" android:background="@drawable/bg_home_detail_selector" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:onClick="openDateTimeCondition">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icon_clock" android:scaleType="fitCenter" />
+                <TextView android:gravity="center_vertical" android:id="@id/label_condition" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_search_type" android:layout_weight="1.0" style="@style/txtM" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/time_arrow" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/arrow_right01" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_home_detail_selector" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:onClick="openWalkCondition">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/cond_walk_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icn_walk02" android:scaleType="fitCenter" />
+                    <TextView android:gravity="center_vertical" android:id="@id/cond_walk_text" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_walk_speed_normal" android:layout_weight="1.0" style="@style/txtM" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/arrow_right01" android:scaleType="fitCenter" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_home_detail_selector" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="openDetailCondition">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/cond_detail_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/icn_method_off" android:scaleType="fitCenter" />
+                    <TextView android:gravity="center_vertical" android:id="@id/cond_detail_text" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_detailsetting_off" android:layout_weight="1.0" style="@style/txtM" />
+                    <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/arrow_right01" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="20.0sp" android:id="@id/button_search" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_height="52.0dip" android:layout_marginBottom="10.0dip" android:minHeight="52.0dip" android:text="@string/button_search" style="@style/btn_big_btn02" />
+            <Button android:id="@id/dummy_for_focus" android:focusable="true" android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/campain_bunner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

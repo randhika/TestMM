@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/padding_list_h" android:paddingTop="@dimen/padding_list_v" android:paddingRight="@dimen/padding_list_h" android:paddingBottom="@dimen/padding_list_v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_setting_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_small" android:src="@drawable/icn_myhome" android:contentDescription="@string/label_home" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/station_text" android:paddingBottom="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/txtL" />
+        <TextView android:gravity="center_vertical" android:id="@id/line_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/txtM" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: braces fieldsfirst space lnc 
+
+package com.google.android.gms.internal;
+
+import java.util.Map;
+
+// Referenced classes of package com.google.android.gms.internal:
+//            bc, bb, ex, eu, 
+//            cf
+
+static final class 
+    implements bc
+{
+
+    public void b(ex ex1, Map map)
+    {
+        cf cf1 = ex1.ca();
+        if (cf1 == null)
+        {
+            eu.D("A GMSG tried to close something that wasn't an overlay.");
+            return;
+        } else
+        {
+            cf1.close();
+            return;
+        }
+    }
+
+    ()
+    {
+    }
+}

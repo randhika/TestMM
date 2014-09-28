@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/map_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/map_select_footer" android:layout_alignParentTop="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/map_select_header" android:background="@color/transparent_black_70" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerVertical="true">
+        <ImageButton android:id="@id/map_select_close" android:background="@*android:color/transparent" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@drawable/close" android:layout_alignParentRight="true" android:onClick="onMapClose" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/button_current_place" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_normal" android:layout_marginBottom="@dimen/padding_large" android:src="@drawable/btn_get_location_selector" android:layout_weight="0.0" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:onClick="toggleScope" />
+    <Button android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:id="@id/start_map" android:background="@drawable/btn_translate_selector" android:padding="@dimen/text_padding_mid" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_normal" android:layout_marginBottom="@dimen/padding_large" android:text="Y!地図アプリで見る" android:layout_weight="0.0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onMapAppStart" />
+    <RelativeLayout android:id="@id/AdView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>
